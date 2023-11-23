@@ -17,18 +17,18 @@ class Memory{
     int numMemoryBlocks;
     int memorySize;
     int numCacheBlocks;
-    LinkedList<MemoryBlock> memory;
+    MemoryBlock[] memory;
 
     Memory(int numMemoryBlocks, int blockSize, int numCacheBlocks){
         this.blockSize = blockSize;
         this.numMemoryBlocks = numMemoryBlocks;
         this.memorySize = numMemoryBlocks * blockSize;
         this.numCacheBlocks = numCacheBlocks;
-        this.memory = new LinkedList<>();
+        this.memory = new MemoryBlock[numMemoryBlocks];
 
         // initializes each MemoryBlock
         for (int i = 0; i < numMemoryBlocks; i++) {
-            memory.add(new MemoryBlock(blockSize));
+            memory[i] = new MemoryBlock(blockSize);
         }
     }
 
@@ -37,20 +37,21 @@ class Memory{
 
         int[] memoryInputs = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-        for(MemoryBlock block: memory){
-            for (int i = 0; i < block.data.length; i++){
+
+        for(int i = 0; i < memory.length; i++){
+            for (int j = 0; j < memory[0].data.length; j++){
                 int randomIndex = random.nextInt(memoryInputs.length);
-                block.data[i] = memoryInputs[randomIndex];
+                memory[i].data[j] = memoryInputs[randomIndex];
             }
         }
     }
 
     void printBlocks(){
         int ctr = 0;
-        for(MemoryBlock block: memory){
+        for(int i = 0; i < memory.length; i++){
             System.out.println("Memory Block: " + ctr);
-            for (int i = 0; i < block.data.length; i++){
-                System.out.printf("Word %d: %d\n", i, block.data[i]);
+            for (int j = 0; j < memory[0].data.length; j++){
+                System.out.printf("Word %d: %d\n", j, memory[i].data[j]);
             }
             ctr++;
             System.out.println();
@@ -77,7 +78,7 @@ class Cache {
     int numMemoryBlocks;
     int cacheSize;
     int numCacheBlocks;
-    LinkedList<CacheBlock> cache;
+    CacheBlock[] cache;
     Queue<Integer> fifoQueue;
 
     Cache(int numMemoryBlocks, int blockSize, int numCacheBlocks) {
@@ -85,16 +86,17 @@ class Cache {
         this.numMemoryBlocks = numMemoryBlocks;
         this.cacheSize = numCacheBlocks * blockSize;
         this.numCacheBlocks = numCacheBlocks;
-        this.cache = new LinkedList<>();
+        this.cache = new CacheBlock[numCacheBlocks];
         this.fifoQueue = new LinkedList<>();
 
         // initializes each CacheBlock with default values
         for (int i = 0; i < numCacheBlocks; i++) {
-            cache.add(new CacheBlock(-1, blockSize));
+            cache[i] = new CacheBlock(-1, blockSize);
             fifoQueue.add(i);
         }
     }
 
+    /*
     boolean read(int address) {
         int blockNumber = address / blockSize;
         int tag = blockNumber;
@@ -107,26 +109,33 @@ class Cache {
         }
 
         System.out.println("Cache Miss!");
-        replaceBlock(tag);
+        //replaceBlock(tag);
         return false;
     }
+    */
+    void replaceBlock(int tag, MemoryBlock memory) {
+        int replacedBlockIndex = fifoQueue.poll(); // removes element from the queue
 
-    void replaceBlock(int tag) {
-        int replacedBlockIndex = fifoQueue.poll();
-        CacheBlock replacedBlock = cache.get(replacedBlockIndex);
+       //CacheBlock replacedBlock = cache[replacedBlockIndex];
 
-        replacedBlock.tag = tag;
-        replacedBlock.valid = true;
+        for (int i = 0; i < memory.data.length; i++){
+            cache[replacedBlockIndex].data[i] = memory.data[i];
+        }
+
+        cache[replacedBlockIndex].tag = tag;
+        cache[replacedBlockIndex].valid = true; // valid means replaced
+
 
         fifoQueue.add(replacedBlockIndex);
     }
 
     void printBlocks(){
         int ctr = 0;
-        for(CacheBlock block: cache){
+        for(int i = 0; i < cache.length; i++){
             System.out.println("Cache Block: " + ctr);
-            for (int i = 0; i < block.data.length; i++){
-                System.out.printf("Tag: %d Word %d: %d\n", block.tag, i, block.data[i]);
+
+            for (int j = 0; j < cache[0].data.length; j++){
+                System.out.printf("Tag: %d Word %d: %d \n", cache[i].tag, j, cache[i].data[j]);
             }
             ctr++;
             System.out.println();
@@ -149,15 +158,41 @@ public class CacheSimulation {
 
         Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
 
-        // Simulation of test set scenarios
-        for (int i = 0; i < numMemoryBlocks; i++) {
-            //cache.read(i);
-
-        }
+        // places random data inside the memory
         memory.addRandomInputs();
+
+        System.out.println("---------------------------------------MEMORY-----------------------------------------------");
         memory.printBlocks();
         System.out.println("--------------------------------------------------------------------------------------------");
+        System.out.println();
+
+        // prints empty cache
+        System.out.println("------------------------------------EMPTY CACHE---------------------------------------------");
         cache.printBlocks();
+        System.out.println("--------------------------------------------------------------------------------------------");
+        System.out.println();
+
+        // replaces each word per block
+        // loop iterates per block, not per word
+        for (int i = 0; i < numMemoryBlocks; i++) {
+            //cache.read(i);
+            cache.replaceBlock(i, memory.memory[i]);
+
+            /*
+            // traces replacement of each block in cache
+            System.out.println("------------------------------------REPLACED CACHE------------------------------------------");
+            cache.printBlocks(i);
+            System.out.println("--------------------------------------------------------------------------------------------");
+            System.out.println();
+             */
+        }
+
+        // prints final version of the cache after replacement from the memory
+        System.out.println("------------------------------------REPLACED CACHE------------------------------------------");
+        cache.printBlocks();
+        System.out.println("--------------------------------------------------------------------------------------------");
+        System.out.println();
+
 
         scanner.close();
     }
