@@ -144,27 +144,38 @@ class Cache {
 }
 
 public class CacheSimulation {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        int blockSize = 4;     // should be 16. temporarily decreased for testing purposes.
+        int numCacheBlocks = 3; // should be 32. temporarily decreased for testing purposes.
+
+        //----------------------------------------------TEST CASES------------------------------------------------------//
+        testCase1(blockSize, numCacheBlocks);
+
+
+        //----------------------------------------------TEST CASES------------------------------------------------------//
+
+
 
         System.out.print("Enter the number of memory blocks: ");
         int numMemoryBlocks = scanner.nextInt();
 
-        int blockSize = 16;
-        int numCacheBlocks = 4; // should be 32. temporarily decreased for testing purposes.
-
 
         Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
-
         Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
 
         // places random data inside the memory
         memory.addRandomInputs();
 
+
         System.out.println("---------------------------------------MEMORY-----------------------------------------------");
         memory.printBlocks();
         System.out.println("--------------------------------------------------------------------------------------------");
         System.out.println();
+
+
 
         // prints empty cache
         System.out.println("------------------------------------EMPTY CACHE---------------------------------------------");
@@ -181,10 +192,10 @@ public class CacheSimulation {
             /*
             // traces replacement of each block in cache
             System.out.println("------------------------------------REPLACED CACHE------------------------------------------");
-            cache.printBlocks(i);
+            cache.printBlocks();
             System.out.println("--------------------------------------------------------------------------------------------");
             System.out.println();
-             */
+            */
         }
 
         // prints final version of the cache after replacement from the memory
@@ -196,4 +207,73 @@ public class CacheSimulation {
 
         scanner.close();
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    static void testCase1(int blockSize, int numCacheBlocks){
+
+        System.out.println("--START OF TEST CASE 1--");
+
+        int numSequences = 4;
+        int numMemoryBlocks = 2 * numCacheBlocks; // 2n
+
+        Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
+        Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
+
+        memory.addRandomInputs();
+
+        System.out.println("-----MEMORY-----");
+        memory.printBlocks();
+        System.out.println();
+        System.out.println();
+
+
+        // prints empty cache
+        System.out.println("-----EMPTY CACHE-----");
+        cache.printBlocks();
+        System.out.println();
+        System.out.println();
+
+        // loop for # of sequence
+        for (int i = 0; i < numSequences; i++){
+            int seq = i + 1;
+            System.out.println("----------SEQUENCE: " + seq + "----------");
+            System.out.println();
+
+            // loop for replacing each cache block
+            for (int j = 0; j < numMemoryBlocks; j++) {
+
+                cache.replaceBlock(j, memory.memory[j]);
+
+                // traces replacement of each block in cache
+                System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
+                cache.printBlocks();
+                System.out.println();
+                System.out.println();
+
+            }
+        }
+
+
+
+        System.out.println("--END OF TEST CASE 1--");
+        System.out.println();
+        System.out.println();
+    }
+
 }
