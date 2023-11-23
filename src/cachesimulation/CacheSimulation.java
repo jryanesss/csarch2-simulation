@@ -32,6 +32,19 @@ class Memory{
         }
     }
 
+    void addRandomInputs(){
+        Random random = new Random();
+
+        int[] memoryInputs = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+        for(MemoryBlock block: memory){
+            for (int i = 0; i < block.data.length; i++){
+                int randomIndex = random.nextInt(memoryInputs.length);
+                block.data[i] = memoryInputs[randomIndex];
+            }
+        }
+    }
+
     void printBlocks(){
         int ctr = 0;
         for(MemoryBlock block: memory){
@@ -141,6 +154,7 @@ public class CacheSimulation {
             //cache.read(i);
 
         }
+        memory.addRandomInputs();
         memory.printBlocks();
         System.out.println("--------------------------------------------------------------------------------------------");
         cache.printBlocks();
