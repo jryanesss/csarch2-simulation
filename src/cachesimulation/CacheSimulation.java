@@ -153,7 +153,7 @@ public class CacheSimulation {
 
         //----------------------------------------------TEST CASES------------------------------------------------------//
         testCase1(blockSize, numCacheBlocks);
-
+        //testCase2(blockSize, numCacheBlocks);
 
         //----------------------------------------------TEST CASES------------------------------------------------------//
 
@@ -272,6 +272,55 @@ public class CacheSimulation {
 
 
         System.out.println("--END OF TEST CASE 1--");
+        System.out.println();
+        System.out.println();
+    }
+     static void testCase2(int blockSize, int numCacheBlocks){
+
+        System.out.println("--START OF TEST CASE 2--");
+
+        int numSequences = 4;
+        int numMemoryBlocks = 4 * numCacheBlocks; 
+        
+        Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
+        Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
+
+        memory.addRandomInputs();
+
+        System.out.println("-----MEMORY-----");
+        memory.printBlocks();
+        System.out.println();
+        System.out.println();
+
+        // prints empty cache
+        System.out.println("-----EMPTY CACHE-----");
+        cache.printBlocks();
+        System.out.println();
+        System.out.println();
+
+        Random random = new Random();
+
+        // loop for # of sequence
+        for (int i = 0; i < numSequences; i++){
+            int seq = i + 1;
+            System.out.println("----------SEQUENCE: " + seq + "----------");
+            System.out.println();
+
+            // loop for replacing each cache block
+            for (int j = 0; j < numMemoryBlocks; j++) {
+
+                int randomIndex = random.nextInt(numMemoryBlocks);
+                cache.replaceBlock(randomIndex, memory.memory[randomIndex]);
+
+                // traces replacement of each block in cache
+                System.out.println("-----INSERTING BLOCK " + randomIndex + " FROM MEMORY-----");
+                cache.printBlocks();
+                System.out.println();
+                System.out.println();
+            }
+        }
+
+        System.out.println("--END OF TEST CASE 2--");
         System.out.println();
         System.out.println();
     }
