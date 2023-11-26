@@ -324,5 +324,56 @@ public class CacheSimulation {
         System.out.println();
         System.out.println();
     }
+    static void testCase3(int blockSize, int numCacheBlocks){
+
+        System.out.println("--START OF TEST CASE 3--");
+        
+        int numMemoryBlocks = 2 * numCacheBlocks;
+        int numRepeats = 4;
+
+        Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
+        Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
+
+        memory.addRandomInputs();
+
+        System.out.println("-----MEMORY-----");
+        memory.printBlocks();
+        System.out.println();
+        System.out.println();
+
+        // prints empty cache
+        System.out.println("-----EMPTY CACHE-----");
+        cache.printBlocks();
+        System.out.println();
+        System.out.println();
+
+        // loop for # of repeats
+        for (int i = 0; i < numRepeats; i++) {
+        	int seq = i+1;
+            System.out.println("----------Sequence: " + (seq) + "----------");
+            System.out.println();
+            boolean repeated = false;
+            // loop for replacing each cache block in the sequence
+            for (int j = 0; j < numMemoryBlocks; j++) {
+
+                cache.replaceBlock(j, memory.memory[j]);
+
+                // traces replacement of each block in cache
+                System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
+                cache.printBlocks();
+                System.out.println();
+                System.out.println();
+                
+                if (j >= numCacheBlocks - 2 && repeated == false){
+                	j = 0;
+                	repeated = true;
+                }
+            }
+        }
+
+        System.out.println("--END OF TEST CASE 3--");
+        System.out.println();
+        System.out.println();
+    }
 
 }
