@@ -92,6 +92,12 @@ class Cache {
         // initializes each CacheBlock with default values
         for (int i = 0; i < numCacheBlocks; i++) {
             cache[i] = new CacheBlock(-1, blockSize);
+
+            // initializes each data with -1 values
+            for (int j = 0; j < cache[0].data.length; j++) {
+                cache[i].data[j] = -1;
+            }
+
             fifoQueue.add(i);
         }
     }
