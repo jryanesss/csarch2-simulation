@@ -120,19 +120,35 @@ class Cache {
     }
     */
     void replaceBlock(int tag, MemoryBlock memory) {
-        int replacedBlockIndex = fifoQueue.poll(); // removes element from the queue
 
-       //CacheBlock replacedBlock = cache[replacedBlockIndex];
+        boolean isHit = false;
 
-        for (int i = 0; i < memory.data.length; i++){
-            cache[replacedBlockIndex].data[i] = memory.data[i];
+        // checks if the tag is already in the cache
+        // if it is, then cache hit
+        for (int i = 0; i < cache.length; i++){
+            if (cache[i].tag == tag){
+                isHit = true;
+            }
         }
 
-        cache[replacedBlockIndex].tag = tag;
-        cache[replacedBlockIndex].valid = true; // valid means replaced
+        // cache miss
+        if (isHit == false){
+            int replacedBlockIndex = fifoQueue.poll(); // removes element from the queue
+
+            //CacheBlock replacedBlock = cache[replacedBlockIndex];
 
 
-        fifoQueue.add(replacedBlockIndex);
+            for (int i = 0; i < memory.data.length; i++){
+                cache[replacedBlockIndex].data[i] = memory.data[i];
+            }
+
+            cache[replacedBlockIndex].tag = tag;
+            cache[replacedBlockIndex].valid = true; // valid means replaced
+
+
+            fifoQueue.add(replacedBlockIndex);
+        }
+
     }
 
     void printBlocks(){
@@ -264,7 +280,7 @@ public class CacheSimulation {
                 cache.replaceBlock(j, memory.memory[j]);
 
                 // traces replacement of each block in cache
-                System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
+                System.out.println("-----ACCESSING BLOCK " + j + "-----");
                 cache.printBlocks();
                 System.out.println();
                 System.out.println();
@@ -282,7 +298,9 @@ public class CacheSimulation {
         System.out.println();
         System.out.println();
     }
-     static void testCase2(int blockSize, int numCacheBlocks, int numMemoryBlocks){
+
+
+    static void testCase2(int blockSize, int numCacheBlocks, int numMemoryBlocks){
 
         System.out.println("--START OF TEST CASE 2--");
 
@@ -320,7 +338,7 @@ public class CacheSimulation {
                 cache.replaceBlock(randomIndex, memory.memory[randomIndex]);
 
                 // traces replacement of each block in cache
-                System.out.println("-----INSERTING BLOCK " + randomIndex + " FROM MEMORY-----");
+                System.out.println("-----ACCESSING BLOCK " + randomIndex + "-----");
                 cache.printBlocks();
                 System.out.println();
                 System.out.println();
@@ -331,6 +349,8 @@ public class CacheSimulation {
         System.out.println();
         System.out.println();
     }
+
+
     static void testCase3(int blockSize, int numCacheBlocks, int numMemoryBlocks){
 
         System.out.println("--START OF TEST CASE 3--");
@@ -366,7 +386,7 @@ public class CacheSimulation {
                 cache.replaceBlock(j, memory.memory[j]);
 
                 // traces replacement of each block in cache
-                System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
+                System.out.println("-----ACCESSING BLOCK " + j + "-----");
                 cache.printBlocks();
                 System.out.println();
                 System.out.println();
