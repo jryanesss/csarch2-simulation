@@ -233,7 +233,7 @@ public class CacheSimulation {
         System.out.println("--START OF TEST CASE 1--");
 
         int numSequences = 4;
-        //int numMemoryBlocks = 2 * numCacheBlocks; // 2n
+        numMemoryBlocks = 2 * numMemoryBlocks; // 2n
 
         Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
         Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
@@ -283,7 +283,7 @@ public class CacheSimulation {
         System.out.println("--START OF TEST CASE 2--");
 
         int numSequences = 1;
-        //int numMemoryBlocks = 4 * numCacheBlocks;
+        numMemoryBlocks = 4 * numMemoryBlocks;
         
         Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
         Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
