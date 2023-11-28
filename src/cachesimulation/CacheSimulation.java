@@ -157,16 +157,19 @@ public class CacheSimulation {
         int blockSize = 4;     // should be 16. temporarily decreased for testing purposes.
         int numCacheBlocks = 3; // should be 32. temporarily decreased for testing purposes.
 
-        //----------------------------------------------TEST CASES------------------------------------------------------//
-        testCase1(blockSize, numCacheBlocks);
-        //testCase2(blockSize, numCacheBlocks);
-
-        //----------------------------------------------TEST CASES------------------------------------------------------//
-
-
-
         System.out.print("Enter the number of memory blocks: ");
         int numMemoryBlocks = scanner.nextInt();
+
+        //----------------------------------------------TEST CASES------------------------------------------------------//
+        testCase1(blockSize, numCacheBlocks, numMemoryBlocks);
+        //testCase2(blockSize, numCacheBlocks, numMemoryBlocks);
+        //testCase3(blockSize, numCacheBlocks, numMemoryBlocks);
+
+        //----------------------------------------------TEST CASES------------------------------------------------------//
+
+
+
+
 
 
         Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
@@ -225,18 +228,12 @@ public class CacheSimulation {
 
 
 
-
-
-
-
-
-
-    static void testCase1(int blockSize, int numCacheBlocks){
+    static void testCase1(int blockSize, int numCacheBlocks, int numMemoryBlocks){
 
         System.out.println("--START OF TEST CASE 1--");
 
         int numSequences = 4;
-        int numMemoryBlocks = 2 * numCacheBlocks; // 2n
+        //int numMemoryBlocks = 2 * numCacheBlocks; // 2n
 
         Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
         Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
@@ -281,12 +278,12 @@ public class CacheSimulation {
         System.out.println();
         System.out.println();
     }
-     static void testCase2(int blockSize, int numCacheBlocks){
+     static void testCase2(int blockSize, int numCacheBlocks, int numMemoryBlocks){
 
         System.out.println("--START OF TEST CASE 2--");
 
-        int numSequences = 4;
-        int numMemoryBlocks = 4 * numCacheBlocks; 
+        int numSequences = 1;
+        //int numMemoryBlocks = 4 * numCacheBlocks;
         
         Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
         Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
@@ -330,11 +327,11 @@ public class CacheSimulation {
         System.out.println();
         System.out.println();
     }
-    static void testCase3(int blockSize, int numCacheBlocks){
+    static void testCase3(int blockSize, int numCacheBlocks, int numMemoryBlocks){
 
         System.out.println("--START OF TEST CASE 3--");
         
-        int numMemoryBlocks = 2 * numCacheBlocks;
+        //int numMemoryBlocks = 2 * numCacheBlocks;
         int numRepeats = 4;
 
         Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
