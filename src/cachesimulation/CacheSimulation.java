@@ -172,11 +172,11 @@ public class CacheSimulation {
 
 
 
-        Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
-        Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
+//        Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
+//        Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
 
         // places random data inside the memory
-        memory.addRandomInputs();
+//        memory.addRandomInputs();
 
 
 //        System.out.println("---------------------------------------MEMORY-----------------------------------------------");
