@@ -1,13 +1,16 @@
 package cachesimulation;
 
-import java.awt.event.*;
-import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JComboBox;
+import javax.swing.JTextArea;
 
 public class Controller implements ActionListener {
     private GUI gui;
-    private int blockSize = 4; // should be 16. temporarily decreased for testing purposes. CHANGE
+    private int blockSize = 16; // should be 16. temporarily decreased for testing purposes. CHANGE
                                // LATER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    private int numCacheBlocks = 8; // should be 32. temporarily decreased for testing purposes. CHANGE
+    private int numCacheBlocks = 32; // should be 32. temporarily decreased for testing purposes. CHANGE
                                     // LATER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     private Cache cache;
     private Memory memory;
