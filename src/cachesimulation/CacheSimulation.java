@@ -1,5 +1,8 @@
 package cachesimulation;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Random;
@@ -47,15 +50,23 @@ class Memory {
         }
     }
 
-    void printBlocks() {
+    void printBlocks(BufferedWriter cacheTraceWriter) {
         int ctr = 0;
-        for (int i = 0; i < memory.length; i++) {
-            System.out.println("Memory Block: " + ctr);
-            for (int j = 0; j < memory[0].data.length; j++) {
-                System.out.printf("Word %d: %d\n", j, memory[i].data[j]);
+        try {
+            for (int i = 0; i < memory.length; i++) {
+                cacheTraceWriter.write("Memory Block: " + ctr + "\n");
+                System.out.println("Memory Block: " + ctr);
+                for (int j = 0; j < memory[0].data.length; j++) {
+                    cacheTraceWriter.write(String.format("Word %d: %d\n", j, memory[i].data[j]));
+                    System.out.printf("Word %d: %d\n", j, memory[i].data[j]);
+                }
+                ctr++;
+                cacheTraceWriter.write("\n");
+                System.out.println();
             }
-            ctr++;
-            System.out.println();
+            cacheTraceWriter.flush(); // Ensure that the content is written to the file immediately
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
@@ -188,16 +199,24 @@ class Cache {
         }
     }
 
-    void printBlocks() {
+    void printBlocks(BufferedWriter cacheTraceWriter) {
         int ctr = 0;
-        for (int i = 0; i < cache.length; i++) {
-            System.out.println("Cache Block: " + ctr);
 
-            for (int j = 0; j < cache[0].data.length; j++) {
-                System.out.printf("Tag: %d Word %d: %d \n", cache[i].tag, j, cache[i].data[j]);
+        try {
+            for (int i = 0; i < cache.length; i++) {
+                cacheTraceWriter.write("Cache Block: " + ctr + "\n");
+                System.out.println("Cache Block: " + ctr);
+                for (int j = 0; j < cache[0].data.length; j++) {
+                    cacheTraceWriter.write("Tag: " + cache[i].tag + " Word " + j + ": " + cache[i].data[j] + " \n");
+                    System.out.printf("Tag: %d Word %d: %d \n", cache[i].tag, j, cache[i].data[j]);
+                }
+                ctr++;
+                cacheTraceWriter.write("\n");
+                System.out.println();
             }
-            ctr++;
-            System.out.println();
+            cacheTraceWriter.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
@@ -205,208 +224,256 @@ class Cache {
 public class CacheSimulation {
 
     static void testCase1(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
-
-        System.out.println("--START OF TEST CASE 1--");
-        int numRepeat = 4;
-        memory.addRandomInputs();
-
-        System.out.println("-----MEMORY-----");
-        memory.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        // prints empty cache
-        System.out.println("-----EMPTY CACHE-----");
-        cache.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        gui.getSnapScreen().setSnapMenu(cache, memory);
-
-        // loop for # of sequence
-        for (int i = 0; i < numRepeat; i++) {
-            int rep = i + 1;
-            System.out.println("----------REPEAT: " + rep + "----------");
+        try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
+            cacheTraceWriter.write("--START OF TEST CASE 1--\n");
+            System.out.println("--START OF TEST CASE 1--");
+            int numRepeat = 4;
+            memory.addRandomInputs();
+            
+            cacheTraceWriter.write("-----MEMORY-----\n");
+            System.out.println("-----MEMORY-----");
+            memory.printBlocks(cacheTraceWriter);
+            cacheTraceWriter.write("\n\n");
+            System.out.println();
+            System.out.println();
+    
+            // prints empty cache
+            cacheTraceWriter.write("-----EMPTY CACHE-----\n");
+            System.out.println("-----EMPTY CACHE-----");
+            cache.printBlocks(cacheTraceWriter);
+            cacheTraceWriter.write("\n\n");
+            System.out.println();
             System.out.println();
 
-            // loop for replacing each cache block
-            for (int j = 0; j < numMemoryBlocks; j++) {
-
-                cache.replaceBlock(j, memory.memory[j]);
-
-                // traces replacement of each block in cache
-                System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
-                cache.printBlocks();
+            gui.getSnapScreen().setSnapMenu(cache, memory);
+    
+            // loop for # of sequence
+            for (int i = 0; i < numRepeat; i++) {
+                int rep = i + 1;
+                System.out.println("----------REPEAT: " + rep + "----------");
                 System.out.println();
-                System.out.println();
+    
+                // loop for replacing each cache block
+                for (int j = 0; j < numMemoryBlocks; j++) {
+    
+                    cache.replaceBlock(j, memory.memory[j]);
+    
+                    // traces replacement of each block in cache
+                    System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
+                    cache.printBlocks(cacheTraceWriter);
+                    System.out.println();
+                    System.out.println();
+                }
             }
+
+            cacheTraceWriter.flush();
+
+            cacheTraceWriter.write("-----Final Snapshot-----");
+            System.out.println("-----Final Snapshot-----");
+            cache.printBlocks(cacheTraceWriter);
+            cacheTraceWriter.write("\n\n");
+            System.out.println();
+            System.out.println();
+            
+            cacheTraceWriter.write("--END OF TEST CASE 1--\n\n");
+            System.out.println("--END OF TEST CASE 1--");
+            System.out.println();
+            System.out.println();
+    
+            cache.computeSimulationMetrics();
+
+            cacheTraceWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        System.out.println("-----Final Snapshot-----");
-        cache.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        System.out.println("--END OF TEST CASE 1--");
-        System.out.println();
-        System.out.println();
-
-        cache.computeSimulationMetrics();
     }
 
     static void testCase2(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
 
-        System.out.println("--START OF TEST CASE 2--");
-        int numRepeat = 1;
-        memory.addRandomInputs();
+        try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
+            System.out.println("--START OF TEST CASE 2--");
+            int numRepeat = 1;
+            memory.addRandomInputs();
 
-        System.out.println("-----MEMORY-----");
-        memory.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        // prints empty cache
-        System.out.println("-----EMPTY CACHE-----");
-        cache.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        Random random = new Random();
-
-        gui.getSnapScreen().setSnapMenu(cache, memory);
-
-        // loop for # of sequence
-        for (int i = 0; i < numRepeat; i++) {
-            int rep = i + 1;
-            System.out.println("----------REPEAT: " + rep + "----------");
+            cacheTraceWriter.write("-----MEMORY-----");
+            System.out.println("-----MEMORY-----");
+            memory.printBlocks(cacheTraceWriter);
+            cacheTraceWriter.write("\n\n");
+            System.out.println();
             System.out.println();
 
-            // loop for replacing each cache block
-            for (int j = 0; j < numMemoryBlocks; j++) {
+            // prints empty cache
+            cacheTraceWriter.write("-----EMPTY CACHE-----");
+            System.out.println("-----EMPTY CACHE-----");
+            cache.printBlocks(cacheTraceWriter);
+            cacheTraceWriter.write("\n\n");
+            System.out.println();
+            System.out.println();
 
-                int randomIndex = random.nextInt(numMemoryBlocks);
-                cache.replaceBlock(randomIndex, memory.memory[randomIndex]);
+            Random random = new Random();
 
-                // traces replacement of each block in cache
-                System.out.println("-----INSERTING BLOCK " + randomIndex + " FROM MEMORY-----");
-                cache.printBlocks();
+            gui.getSnapScreen().setSnapMenu(cache, memory);
+
+            // loop for # of sequence
+            for (int i = 0; i < numRepeat; i++) {
+                int rep = i + 1;
+                cacheTraceWriter.write("----------REPEAT: " + rep + "----------\n");
+                System.out.println("----------REPEAT: " + rep + "----------");
                 System.out.println();
-                System.out.println();
+
+                // loop for replacing each cache block
+                for (int j = 0; j < numMemoryBlocks; j++) {
+
+                    int randomIndex = random.nextInt(numMemoryBlocks);
+                    cache.replaceBlock(randomIndex, memory.memory[randomIndex]);
+
+                    // traces replacement of each block in cache
+                    cacheTraceWriter.write("-----INSERTING BLOCK " + randomIndex + " FROM MEMORY-----");
+                    System.out.println("-----INSERTING BLOCK " + randomIndex + " FROM MEMORY-----");
+                    cache.printBlocks(cacheTraceWriter);
+                    cacheTraceWriter.write("\n\n");
+                    System.out.println();
+                    System.out.println();
+                }
+                cacheTraceWriter.flush();
             }
+
+            cacheTraceWriter.write("--END OF TEST CASE 2--\n\n");
+            System.out.println("--END OF TEST CASE 2--");
+            System.out.println();
+            System.out.println();
+
+            cache.computeSimulationMetrics();
+
+            cacheTraceWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-        System.out.println("--END OF TEST CASE 2--");
-        System.out.println();
-        System.out.println();
-
-        cache.computeSimulationMetrics();
     }
-
+    
     static void testCase3(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
 
-        System.out.println("--START OF TEST CASE 3--");
-        int numRepeats = 4;
-        memory.addRandomInputs();
+        try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
+            cacheTraceWriter.write("--START OF TEST CASE 3--");
+            System.out.println("--START OF TEST CASE 3--");
+            int numRepeats = 4;
+            memory.addRandomInputs();
 
-        System.out.println("-----MEMORY-----");
-        memory.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        // prints empty cache
-        System.out.println("-----EMPTY CACHE-----");
-        cache.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        gui.getSnapScreen().setSnapMenu(cache, memory);
-
-        // loop for # of repeats
-        for (int i = 0; i < numRepeats; i++) {
-            int seq = i + 1;
-            System.out.println("----------REPEAT: " + (seq) + "----------");
+            cacheTraceWriter.write("-----MEMORY-----");
+            System.out.println("-----MEMORY-----");
+            memory.printBlocks(cacheTraceWriter);
+            cacheTraceWriter.write("\n\n");
             System.out.println();
-            boolean repeated = false;
-            // loop for replacing each cache block in the sequence
-            for (int j = 0; j < numMemoryBlocks; j++) {
+            System.out.println();
 
-                cache.replaceBlock(j, memory.memory[j]);
+            // prints empty cache
+            cacheTraceWriter.write("-----EMPTY CACHE-----");
+            System.out.println("-----EMPTY CACHE-----");
+            cache.printBlocks(cacheTraceWriter);
+            cacheTraceWriter.write("\n\n");
+            System.out.println();
+            System.out.println();
 
-                // traces replacement of each block in cache
-                System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
-                cache.printBlocks();
+            gui.getSnapScreen().setSnapMenu(cache, memory);
+
+            // loop for # of repeats
+            for (int i = 0; i < numRepeats; i++) {
+                int seq = i + 1;
+                cacheTraceWriter.write("----------REPEAT: " + (seq) + "----------\n");
+                System.out.println("----------REPEAT: " + (seq) + "----------");
                 System.out.println();
-                System.out.println();
+                boolean repeated = false;
+                // loop for replacing each cache block in the sequence
+                for (int j = 0; j < numMemoryBlocks; j++) {
 
-                if (j >= numCacheBlocks - 2 && repeated == false) {
-                    j = 0;
-                    repeated = true;
+                    cache.replaceBlock(j, memory.memory[j]);
+
+                    // traces replacement of each block in cache
+                    cacheTraceWriter.write("-----INSERTING BLOCK " + j + " FROM MEMORY-----\n");
+                    System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
+                    cache.printBlocks(cacheTraceWriter);
+                    cacheTraceWriter.write("\n\n");
+                    System.out.println();
+                    System.out.println();
+
+                    if (j >= numCacheBlocks - 2 && repeated == false) {
+                        j = 0;
+                        repeated = true;
+                    }
                 }
             }
-        }
 
-        System.out.println("--END OF TEST CASE 3--");
-        System.out.println();
-        System.out.println();
+            cacheTraceWriter.flush();
 
-        cache.computeSimulationMetrics();
-    }
-
-    static void sstestCase1(int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
-        System.out.println("--START OF TEST CASE 1--");
-
-        int numRepeat = 4;
-        numMemoryBlocks = 2 * numMemoryBlocks; // 2n
-
-        Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
-        Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
-
-        memory.addRandomInputs();
-
-        gui.getStepScreen().setStepScreen(cache, memory);
-
-        System.out.println("-----MEMORY-----");
-        memory.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        // prints empty cache
-        System.out.println("-----EMPTY CACHE-----");
-        cache.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        // // loop for # of sequence
-        for (int i = 0; i < numRepeat; i++) {
-            int rep = i + 1;
-            System.out.println("----------REPEAT: " + rep + "----------");
+            System.out.println("--END OF TEST CASE 3--");
+            System.out.println();
             System.out.println();
 
-            // loop for replacing each cache block
-            for (int j = 0; j < numMemoryBlocks; j++) {
-
-                // highlight memblocks
-                gui.getStepScreen().setCache(cache);
-                gui.getStepScreen().setMainMemory(memory);
-                // System.out.println("lol");
-                // Thread.sleep(1000);
-
-                cache.replaceBlock(j, memory.memory[j]);
-
-                // traces replacement of each block in cache
-                System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
-                cache.printBlocks();
-                System.out.println();
-                System.out.println();
-            }
+            cache.computeSimulationMetrics();
+            cacheTraceWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-        System.out.println("-----Final Snapshot-----");
-        cache.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        System.out.println("--END OF TEST CASE 1--");
-        System.out.println();
-        System.out.println();
+        
     }
 }
+
+//     static void sstestCase1(int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
+//         System.out.println("--START OF TEST CASE 1--");
+
+//         int numRepeat = 4;
+//         numMemoryBlocks = 2 * numMemoryBlocks; // 2n
+
+//         Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
+//         Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
+
+//         memory.addRandomInputs();
+
+//         gui.getStepScreen().setStepScreen(cache, memory);
+
+//         System.out.println("-----MEMORY-----");
+//         memory.printBlocks();
+//         System.out.println();
+//         System.out.println();
+
+//         // prints empty cache
+//         System.out.println("-----EMPTY CACHE-----");
+//         cache.printBlocks();
+//         System.out.println();
+//         System.out.println();
+
+//         // // loop for # of sequence
+//         for (int i = 0; i < numRepeat; i++) {
+//             int rep = i + 1;
+//             System.out.println("----------REPEAT: " + rep + "----------");
+//             System.out.println();
+
+//             // loop for replacing each cache block
+//             for (int j = 0; j < numMemoryBlocks; j++) {
+
+//                 // highlight memblocks
+//                 gui.getStepScreen().setCache(cache);
+//                 gui.getStepScreen().setMainMemory(memory);
+//                 // System.out.println("lol");
+//                 // Thread.sleep(1000);
+
+//                 cache.replaceBlock(j, memory.memory[j]);
+
+//                 // traces replacement of each block in cache
+//                 System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
+//                 cache.printBlocks();
+//                 System.out.println();
+//                 System.out.println();
+//             }
+//         }
+
+//         System.out.println("-----Final Snapshot-----");
+//         cache.printBlocks();
+//         System.out.println();
+//         System.out.println();
+
+//         System.out.println("--END OF TEST CASE 1--");
+//         System.out.println();
+//         System.out.println();
+//     }
+// }

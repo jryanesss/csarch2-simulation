@@ -94,16 +94,16 @@ public class SnapScreen extends JPanel {
                     "Output", JOptionPane.PLAIN_MESSAGE);
 
             try {
-                BufferedWriter writer = new BufferedWriter(new FileWriter("SimulationOutput.txt")); // TODO: CHANGE FILENAME LATER!!!!!!!!!!!!!!!!!!!1
+                BufferedWriter outputWriter = new BufferedWriter(new FileWriter("SimulationOutput.txt")); // TODO: CHANGE FILENAME LATER!!!!!!!!!!!!!!!!!!!1
 
-                writer.write("MEMORY ACCESS COUNT: " + cache.memoryAccessCount +
+                outputWriter.write("MEMORY ACCESS COUNT: " + cache.memoryAccessCount +
                             "\nCACHE HIT COUNT: " +  cache.cacheHitCount +
                             "\nCACHE MISS COUNT: " + cache.cacheMissCount +
                             "\nCACHE HIT RATE: " + cache.cacheHitRate * 100 + "%" +
                             "\nCACHE MISS RATE: " + cache.cacheMissRate * 100 + "%" +
                             "\nAVERAGE MEMORY ACCESS TIME: " + cache.avgMemoryAccessTime + " ns" +
                             "\nTOTAL MEMORY ACCESS TIME: " + cache.totalMemoryAccessTime + " ns");
-                writer.close();
+                outputWriter.close();
             } catch (IOException err) {
                 err.printStackTrace();
             }
