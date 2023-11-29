@@ -43,8 +43,8 @@ For this test case, the number of memory blocks is 2n where n is the number of m
    <br>
   <br>
 If n = 32:
- * there will be a total of 376 memory access counts
- * 120 cache hits
- * 256 cache misses
- * an average memory access time of 219.55 ns
- * a total memory access time of 82552 ns
+- There will be a total of 376 memory access counts
+- 120 cache hits
+- 256 cache misses
+- An average memory access time of 219.55 ns
+- A total memory access time of 82552 ns
