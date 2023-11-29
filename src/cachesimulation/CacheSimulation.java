@@ -397,7 +397,7 @@ public class CacheSimulation {
                     cache.printBlocks(cacheTraceWriter);
                     cacheTraceWriter.write("\n\n");
 
-                    if (j >= numCacheBlocks - 2 && repeated == false) {
+                    if (j >= (numCacheBlocks/2) - 2 && repeated == false) {
                         j = 0;
                         repeated = true;
                     }
@@ -425,6 +425,11 @@ public class CacheSimulation {
             for (int i = 0; i < numRepeat; i++) {
                 for (int j = 0; j < numMemoryBlocks; j++) {
                     int index = cache.stepReplaceBlock(j, memory.memory[j]);
+
+                    // fixes the highlighting problem
+                    if (index != -2){
+                        index = j;
+                    }
 
                     // // Highlights replaced cache block and current memory block
                     gui.getStepScreen().highlightCacheBlock(cache, index);
@@ -474,9 +479,14 @@ public class CacheSimulation {
                     int randomIndex = random.nextInt(numMemoryBlocks);
                     int index = cache.stepReplaceBlock(j, memory.memory[randomIndex]);
 
+                    // fixes the highlighting problem
+                    if (index != -2){
+                        index = j;
+                    }
+
                     // Highlights replaced cache block and current memory block
                     gui.getStepScreen().highlightCacheBlock(cache, index);
-                    gui.getStepScreen().highlightMemBlock(memory, j);
+                    gui.getStepScreen().highlightMemBlock(memory, randomIndex);
 
                     // Reflects GUI Changes
                     SwingUtilities.invokeLater(() -> {
@@ -521,6 +531,11 @@ public class CacheSimulation {
 
                     int index = cache.stepReplaceBlock(j, memory.memory[j]);
 
+                    // fixes the highlighting problem
+                    if (index != -2){
+                        index = j;
+                    }
+
                     // Highlights replaced cache block and current memory block
                     gui.getStepScreen().highlightCacheBlock(cache, index);
                     gui.getStepScreen().highlightMemBlock(memory, j);
@@ -531,7 +546,7 @@ public class CacheSimulation {
                         gui.getStepScreen().revalidate();
                     });
 
-                    if (j >= numCacheBlocks - 2 && repeated == false) {
+                    if (j >= (numMemoryBlocks/2) - 2 && repeated == false) {
                         j = 0;
                         repeated = true;
                     }
