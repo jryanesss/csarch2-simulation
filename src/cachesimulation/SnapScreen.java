@@ -65,10 +65,6 @@ public class SnapScreen extends JPanel {
         this.add(panelWest, BorderLayout.WEST);
         this.add(panelSouth, BorderLayout.SOUTH);
 
-        // btnPlay.addActionListener(e -> {
-        // updateCache(cache);
-        // });
-
         btnOutput.addActionListener(e -> {
             JOptionPane.showMessageDialog(null,
                     "MEMORY ACCESS COUNT:\nCACHE HIT COUNT:\nCACHE MISS COUNT:\nCACHE HIT RATE:\nCACHE MISS RATE:\nAVERAGE MEMORY ACCESS TIME:\nTOTAL MEMORY ACCESS TIME:\n\nOutput file can be found in the same folder.",

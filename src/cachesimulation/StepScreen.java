@@ -5,6 +5,7 @@ import javax.swing.*;
 
 public class StepScreen extends JPanel {
     private JPanel panelNorth = new JPanel();
+    private JPanel panelCenter = new JPanel(new FlowLayout(FlowLayout.CENTER));
     private JPanel panelWest = new JPanel(new BorderLayout());
     private JPanel panelEast = new JPanel(new BorderLayout());
     private JPanel panelSouth = new JPanel(new FlowLayout());
@@ -14,6 +15,7 @@ public class StepScreen extends JPanel {
     private JScrollPane scrollCache;
     private JPanel panelMainMemory = new JPanel();
     private JScrollPane scrollMainMemory;
+    private JLabel lblHitMiss = new JLabel();
 
     public StepScreen() {
         this.setLayout(new BorderLayout());
@@ -24,6 +26,9 @@ public class StepScreen extends JPanel {
         panelNorth.setBackground(Color.decode("#FFFFFF"));
         JLabel lblMain = new JLabel("CACHE SIMULATOR: STEP-BY-STEP");
         panelNorth.add(lblMain);
+
+        // Center Panel
+        panelCenter.add(lblHitMiss);
 
         // South Panel
         panelSouth.setBackground(Color.decode("#FFFFFF"));
@@ -44,7 +49,6 @@ public class StepScreen extends JPanel {
         panelWest.add(scrollCache, BorderLayout.CENTER);
 
         // East Panel
-
         panelEast.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 30));
         JPanel headerMainMemory = new JPanel();
         JLabel lblMainMemory = new JLabel("Main Memory");
@@ -60,6 +64,7 @@ public class StepScreen extends JPanel {
         setMainMemory(memory);
 
         this.add(panelNorth, BorderLayout.NORTH);
+        this.add(panelCenter, BorderLayout.CENTER);
         this.add(panelEast, BorderLayout.EAST);
         this.add(panelWest, BorderLayout.WEST);
         this.add(panelSouth, BorderLayout.SOUTH);
@@ -75,8 +80,6 @@ public class StepScreen extends JPanel {
     public void setCache(Cache c) {
         panelCache.removeAll();
         String color;
-        panelCache.revalidate();
-        panelCache.repaint();
         int i = 0;
         String input;
         for (CacheBlock cacheBlock : c.cache) {
@@ -96,21 +99,19 @@ public class StepScreen extends JPanel {
                                 + "\">" + input + "</p></html>");
                 messageLabel.setOpaque(true);
                 panelCache.add(messageLabel);
-                this.revalidate();
                 scrollCache.getViewport().setViewPosition(messageLabel.getLocation());
-                this.repaint();
-
                 i++;
             }
 
         }
+        panelCache.revalidate();
+        panelCache.repaint();
+        panelCache.updateUI();
     }
 
     public void setMainMemory(Memory m) {
         panelMainMemory.removeAll();
         String color;
-        panelMainMemory.revalidate();
-        panelMainMemory.repaint();
         int i = 0;
         String input;
         for (MemoryBlock memBlock : m.memory) {
@@ -130,28 +131,80 @@ public class StepScreen extends JPanel {
                                 + "\">" + input + "</p></html>");
                 messageLabel.setOpaque(true);
                 panelMainMemory.add(messageLabel);
-                this.revalidate();
                 scrollMainMemory.getViewport().setViewPosition(messageLabel.getLocation());
-                this.repaint();
                 i++;
             }
+        }
+        panelMainMemory.revalidate();
+        panelMainMemory.repaint();
+        panelCache.updateUI();
+    }
 
+    public void displayHitOrMiss(boolean is) {
+        if (is) {
+            lblHitMiss.setText("MISS!");
+            lblHitMiss.setForeground(Color.RED);
+        } else {
+            lblHitMiss.setText("HIT!");
+            lblHitMiss.setForeground(Color.GREEN);
         }
     }
 
-    private void updateCache(Cache c) {
-        setCache(c);
-        showOutputBtn();
+    public void highlightCacheBlock(Cache c, int index) {
+        panelCache.removeAll();
+        String color;
+        int i = 0;
+        Point scrollTo = new Point(0, 0);
+        String input;
+        boolean shouldScroll = false;
+        for (CacheBlock cacheBlock : c.cache) {
+            if (i / c.blockSize % 2 == 0) {
+                color = "#E8EEFF";
+            } else {
+                color = "#FFFFFF";
+            }
+            if (cacheBlock.tag == index) {
+                color = "#FDC898";
+                scrollTo = new Point(0, i * 25);
+            } else {
+                lblHitMiss.setText("");
+            }
+            for (int number : cacheBlock.data) {
+                if (number == -1) {
+                    input = "[EMPTY]";
+                } else {
+                    input = String.valueOf(number);
+                }
+
+                JLabel messageLabel = new JLabel(
+                        "<html><p style=\"width: 80px; padding: 2px; background-color:" + color
+                                + "\">" + input + "</p></html>");
+                messageLabel.setOpaque(true);
+                panelCache.add(messageLabel);
+                i++;
+
+                int labelYPosition = i * 25;
+
+                if (cacheBlock.tag == index && labelYPosition >= scrollCache.getHeight() - 100) {
+                    shouldScroll = true;
+                }
+            }
+        }
+        panelCache.revalidate();
+        panelCache.repaint();
+        if (shouldScroll) {
+            int scrollPosition = scrollTo.y - (scrollCache.getHeight() - 100);
+            scrollCache.getViewport().setViewPosition(new Point(0, Math.max(0, scrollPosition)));
+        }
     }
 
     public void highlightMemBlock(Memory m, int index) {
         panelMainMemory.removeAll();
         String color;
-        panelMainMemory.revalidate();
-        panelMainMemory.repaint();
         int i = 0;
         Point scrollTo = new Point(0, 0);
         String input;
+        boolean shouldScroll = false;
         for (int blockIndex = 0; blockIndex < m.numMemoryBlocks; blockIndex++) {
             MemoryBlock memBlock = m.memory[blockIndex];
             for (int number : memBlock.data) {
@@ -170,21 +223,27 @@ public class StepScreen extends JPanel {
                     scrollTo = new Point(0, i * 25);
                 }
                 JLabel messageLabel = new JLabel(
-                        "<html><p style = \"width: 80px; padding: 2px; background-color:" + color
+                        "<html><p style=\"width: 80px; padding: 2px; background-color:" + color
                                 + "\">" + input + "</p></html>");
                 messageLabel.setOpaque(true);
                 panelMainMemory.add(messageLabel);
-                this.revalidate();
-                scrollMainMemory.getViewport().setViewPosition(scrollTo);
-                this.repaint();
-
                 i++;
+                int labelYPosition = i * 25;
+                if (blockIndex == index && color.equals("#FDC898")
+                        && labelYPosition >= scrollMainMemory.getHeight() - 100) {
+                    shouldScroll = true;
+                }
             }
-
+        }
+        panelMainMemory.revalidate();
+        panelMainMemory.repaint();
+        if (shouldScroll) {
+            int scrollPosition = scrollTo.y - (scrollMainMemory.getHeight() - 100);
+            scrollMainMemory.getViewport().setViewPosition(new Point(0, Math.max(0, scrollPosition)));
         }
     }
 
-    private void showOutputBtn() {
+    public void showOutputBtn() {
         panelSouth.removeAll();
         panelSouth.add(btnOutput);
         this.revalidate();

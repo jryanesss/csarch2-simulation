@@ -26,7 +26,6 @@ public class Controller implements ActionListener {
     }
 
     public void updateView() {
-
     }
 
     @Override
@@ -50,46 +49,68 @@ public class Controller implements ActionListener {
 
                 switch (selectedTestCase) {
                     case "Test Case 1":
+                        numMemBlocks = 2 * numMemBlocks; // 2n
+                        cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
+                        memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
                         if (selectedSimOption.equals("Snapshot")) {
-                            numMemBlocks = 2 * numMemBlocks; // 2n
-                            cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
-                            memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
                             this.gui.changeScreen("SNAP");
                             CacheSimulation.testCase1(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
                         } else {
                             this.gui.changeScreen("STEP");
+                            memory.addRandomInputs();
+                            gui.getStepScreen().setStepScreen(cache, memory);
                         }
                         break;
                     case "Test Case 2":
+                        numMemBlocks = 4 * numMemBlocks; // 4n
+                        cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
+                        memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
                         if (selectedSimOption.equals("Snapshot")) {
-                            numMemBlocks = 4 * numMemBlocks; // 4n
-                            cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
-                            memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
+
                             this.gui.changeScreen("SNAP");
                             CacheSimulation.testCase2(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
                         } else {
                             this.gui.changeScreen("STEP");
+                            memory.addRandomInputs();
+                            gui.getStepScreen().setStepScreen(cache, memory);
                         }
                         break;
                     case "Test Case 3":
+                        numMemBlocks = 2 * numMemBlocks; // 2n
+                        cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
+                        memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
                         if (selectedSimOption.equals("Snapshot")) {
-                            numMemBlocks = 2 * numMemBlocks; // 2n
-                            cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
-                            memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
                             this.gui.changeScreen("SNAP");
                             CacheSimulation.testCase3(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
                         } else {
                             this.gui.changeScreen("STEP");
+                            memory.addRandomInputs();
+                            gui.getStepScreen().setStepScreen(cache, memory);
                         }
                         break;
                 }
             } catch (NumberFormatException ex) {
                 this.gui.getStartScreen().printError();
             }
-
         }
         if (e.getActionCommand().equals("\u25B6")) {
-            this.gui.getSnapScreen().updateCache(cache);
+            if (selectedSimOption.equals("Step-by-Step")) {
+                switch (selectedTestCase) {
+                    case "Test Case 1":
+                        CacheSimulation.stepTestCase1(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
+                        break;
+                    case "Test Case 2":
+                        CacheSimulation.stepTestCase2(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
+                        break;
+                    case "Test Case 3":
+                        CacheSimulation.stepTestCase3(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
+                        break;
+                }
+                this.gui.getStepScreen().showOutputBtn();
+            } else {
+                this.gui.getSnapScreen().updateCache(cache);
+            }
+
         }
     }
 }

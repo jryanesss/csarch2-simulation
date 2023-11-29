@@ -2,6 +2,8 @@ package cachesimulation;
 
 import java.util.*;
 
+import javax.swing.SwingUtilities;
+
 // used by the Memory class
 // this is what's inside the memory
 class MemoryBlock {
@@ -144,6 +146,40 @@ class Cache {
             cache[replacedBlockIndex].valid = true; // valid means replaced
 
             fifoQueue.add(replacedBlockIndex);
+        }
+
+    }
+
+    int stepReplaceBlock(int tag, MemoryBlock memory) {
+
+        boolean isHit = false;
+
+        // checks if the tag is already in the cache
+        // if it is, then cache hit
+        for (int i = 0; i < cache.length; i++) {
+            if (cache[i].tag == tag) {
+                isHit = true;
+            }
+        }
+
+        // cache miss
+        if (isHit == false) {
+            int replacedBlockIndex = fifoQueue.poll(); // removes element from the queue
+
+            // CacheBlock replacedBlock = cache[replacedBlockIndex];
+
+            for (int i = 0; i < memory.data.length; i++) {
+                cache[replacedBlockIndex].data[i] = memory.data[i];
+            }
+
+            cache[replacedBlockIndex].tag = tag;
+            cache[replacedBlockIndex].valid = true; // valid means replaced
+
+            fifoQueue.add(replacedBlockIndex);
+
+            return replacedBlockIndex;
+        } else {
+            return -1;
         }
 
     }
@@ -305,61 +341,128 @@ public class CacheSimulation {
         System.out.println();
     }
 
-    static void sstestCase1(int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
-        System.out.println("--START OF TEST CASE 1--");
-
+    static void stepTestCase1(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks,
+            GUI gui) {
         int numRepeat = 4;
-        numMemoryBlocks = 2 * numMemoryBlocks; // 2n
 
-        Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
-        Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
+        Thread computationThread = new Thread(() -> {
+            for (int i = 0; i < numRepeat; i++) {
+                for (int j = 0; j < numMemoryBlocks; j++) {
+                    int index = cache.stepReplaceBlock(j, memory.memory[j]);
 
-        memory.addRandomInputs();
+                    // Highlights replaced cache block and current memory block
+                    gui.getStepScreen().highlightCacheBlock(cache, index);
+                    gui.getStepScreen().highlightMemBlock(memory, j);
 
-        gui.getStepScreen().setStepScreen(cache, memory);
+                    // Reflects GUI Changes
+                    SwingUtilities.invokeLater(() -> {
+                        gui.getStepScreen().repaint();
+                        gui.getStepScreen().revalidate();
+                    });
 
-        System.out.println("-----MEMORY-----");
-        memory.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        // prints empty cache
-        System.out.println("-----EMPTY CACHE-----");
-        cache.printBlocks();
-        System.out.println();
-        System.out.println();
-
-        // // loop for # of sequence
-        for (int i = 0; i < numRepeat; i++) {
-            int rep = i + 1;
-            System.out.println("----------REPEAT: " + rep + "----------");
-            System.out.println();
-
-            // loop for replacing each cache block
-            for (int j = 0; j < numMemoryBlocks; j++) {
-
-                // highlight memblocks
-                gui.getStepScreen().setCache(cache);
-                gui.getStepScreen().setMainMemory(memory);
-                // System.out.println("lol");
-                // Thread.sleep(1000);
-
-                cache.replaceBlock(j, memory.memory[j]);
-
-                // traces replacement of each block in cache
-                System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
-                cache.printBlocks();
-                System.out.println();
-                System.out.println();
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
             }
-        }
+        });
 
-        System.out.println("-----Final Snapshot-----");
-        cache.printBlocks();
-        System.out.println();
-        System.out.println();
+        computationThread.start();
 
         System.out.println("--END OF TEST CASE 1--");
+        System.out.println();
+        System.out.println();
+    }
+
+    static void stepTestCase2(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks,
+            GUI gui) {
+        Random random = new Random();
+        int numRepeat = 1;
+
+        Thread computationThread = new Thread(() -> {
+            // loop for # of sequence
+            for (int i = 0; i < numRepeat; i++) {
+                int rep = i + 1;
+                System.out.println("----------REPEAT: " + rep + "----------");
+                System.out.println();
+
+                // loop for replacing each cache block
+                for (int j = 0; j < numMemoryBlocks; j++) {
+                    int randomIndex = random.nextInt(numMemoryBlocks);
+                    int index = cache.stepReplaceBlock(j, memory.memory[randomIndex]);
+
+                    // Highlights replaced cache block and current memory block
+                    gui.getStepScreen().highlightCacheBlock(cache, index);
+                    gui.getStepScreen().highlightMemBlock(memory, j);
+
+                    // Reflects GUI Changes
+                    SwingUtilities.invokeLater(() -> {
+                        gui.getStepScreen().repaint();
+                        gui.getStepScreen().revalidate();
+                    });
+
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
+            }
+        });
+
+        computationThread.start();
+
+        System.out.println("--END OF TEST CASE 2-");
+        System.out.println();
+        System.out.println();
+    }
+
+    static void stepTestCase3(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks,
+            GUI gui) {
+
+        System.out.println("--START OF TEST CASE 3--");
+        int numRepeats = 4;
+
+        Thread computationThread = new Thread(() -> {
+            // loop for # of repeats
+            for (int i = 0; i < numRepeats; i++) {
+                int seq = i + 1;
+                System.out.println("----------REPEAT: " + (seq) + "----------");
+                System.out.println();
+                boolean repeated = false;
+                // loop for replacing each cache block in the sequence
+                for (int j = 0; j < numMemoryBlocks; j++) {
+
+                    int index = cache.stepReplaceBlock(j, memory.memory[j]);
+
+                    // Highlights replaced cache block and current memory block
+                    gui.getStepScreen().highlightCacheBlock(cache, index);
+                    gui.getStepScreen().highlightMemBlock(memory, j);
+
+                    // Reflects GUI Changes
+                    SwingUtilities.invokeLater(() -> {
+                        gui.getStepScreen().repaint();
+                        gui.getStepScreen().revalidate();
+                    });
+
+                    if (j >= numCacheBlocks - 2 && repeated == false) {
+                        j = 0;
+                        repeated = true;
+                    }
+
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
+            }
+        });
+        computationThread.start();
+
+        System.out.println("--END OF TEST CASE 3");
         System.out.println();
         System.out.println();
     }
