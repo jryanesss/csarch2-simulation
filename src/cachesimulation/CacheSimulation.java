@@ -271,7 +271,7 @@ public class CacheSimulation {
         try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
             cacheTraceWriter.write("--START OF TEST CASE 1--\n\n");
             int numRepeat = 4;
-            memory.addRandomInputs();
+            // memory.addRandomInputs();
 
             cacheTraceWriter.write("-----MEMORY-----\n");
             memory.printBlocks(cacheTraceWriter);
@@ -321,7 +321,7 @@ public class CacheSimulation {
         try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
             System.out.println("--START OF TEST CASE 2--\n\n");
             int numRepeat = 1;
-            memory.addRandomInputs();
+            // memory.addRandomInputs();
 
             cacheTraceWriter.write("-----MEMORY-----");
             memory.printBlocks(cacheTraceWriter);
@@ -369,7 +369,7 @@ public class CacheSimulation {
         try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
             cacheTraceWriter.write("--START OF TEST CASE 3--\n\n");
             int numRepeats = 4;
-            memory.addRandomInputs();
+            // memory.addRandomInputs();
 
             cacheTraceWriter.write("-----MEMORY-----");
             memory.printBlocks(cacheTraceWriter);

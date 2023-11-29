@@ -8,8 +8,8 @@ import javax.swing.JTextArea;
 
 public class Controller implements ActionListener {
     private GUI gui;
-    private int blockSize = 16;
-    private int numCacheBlocks = 32;
+    private int blockSize = 16; // 16
+    private int numCacheBlocks = 32; // 32
     private Cache cache;
     private Memory memory;
     String selectedTestCase;
@@ -53,6 +53,7 @@ public class Controller implements ActionListener {
                         numMemBlocks = 2 * numMemBlocks; // 2n
                         cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
                         memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
+                        memory.addRandomInputs();
                         if (selectedSimOption.equals("Snapshot")) {
                             this.gui.changeScreen("SNAP");
                             CacheSimulation.testCase1(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
@@ -66,6 +67,7 @@ public class Controller implements ActionListener {
                         numMemBlocks = 4 * numMemBlocks; // 4n
                         cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
                         memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
+                        memory.addRandomInputs();
                         if (selectedSimOption.equals("Snapshot")) {
 
                             this.gui.changeScreen("SNAP");
@@ -80,6 +82,7 @@ public class Controller implements ActionListener {
                         numMemBlocks = 2 * numMemBlocks; // 2n
                         cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
                         memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
+                        memory.addRandomInputs();
                         if (selectedSimOption.equals("Snapshot")) {
                             this.gui.changeScreen("SNAP");
                             CacheSimulation.testCase3(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
