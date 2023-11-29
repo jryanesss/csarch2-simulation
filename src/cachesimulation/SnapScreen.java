@@ -11,10 +11,13 @@ public class SnapScreen extends JPanel {
     private JPanel panelSouth = new JPanel(new FlowLayout());
     private JButton btnPlay = new JButton("\u25B6");
     private JButton btnOutput = new JButton("OUTPUT");
+    private JPanel panelCache = new JPanel();
+    private JScrollPane scrollCache;
+    private JPanel panelMainMemory = new JPanel();
+    private JScrollPane scrollMainMemory;
 
     public SnapScreen() {
         this.setLayout(new BorderLayout());
-        // System.out.println("Snap!");
     }
 
     public void setSnapMenu(Cache cache, Memory memory) {
@@ -25,21 +28,16 @@ public class SnapScreen extends JPanel {
 
         // South Panel
         panelSouth.setBackground(Color.decode("#FFFFFF"));
-        btnPlay = new JButton("\u25B6");
         btnPlay.setBackground(Color.decode("#EDEDED"));
         panelSouth.add(btnPlay);
-        btnOutput = new JButton("OUTPUT");
         btnPlay.setBackground(Color.decode("#EDEDED"));
 
         // West Panel
         panelWest.setBorder(BorderFactory.createEmptyBorder(0, 30, 0, 0));
         JPanel headerCache = new JPanel();
-        // JLabel lblCache = new JLabel("Cache ");
         JLabel lblCache = new JLabel("<html><div style='text-align: center;'>Cache</div></html>");
-        JPanel panelCache = new JPanel();
-        // panelCache.setPreferredSize(new Dimension(80, 0));
         panelCache.setLayout(new BoxLayout(panelCache, BoxLayout.Y_AXIS));
-        JScrollPane scrollCache = new JScrollPane(panelCache, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+        scrollCache = new JScrollPane(panelCache, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
                 JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 
         headerCache.add(lblCache);
@@ -51,26 +49,25 @@ public class SnapScreen extends JPanel {
         panelEast.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 30));
         JPanel headerMainMemory = new JPanel();
         JLabel lblMainMemory = new JLabel("Main Memory");
-        JPanel panelMainMemory = new JPanel();
         panelMainMemory.setLayout(new BoxLayout(panelMainMemory, BoxLayout.Y_AXIS));
-        JScrollPane scrollMainMemory = new JScrollPane(panelMainMemory, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+        scrollMainMemory = new JScrollPane(panelMainMemory, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
                 JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 
         headerMainMemory.add(lblMainMemory);
         panelEast.add(headerMainMemory, BorderLayout.NORTH);
         panelEast.add(scrollMainMemory, BorderLayout.CENTER);
 
-        setCache(panelCache, scrollCache, cache);
-        setMainMemory(panelMainMemory, scrollMainMemory, memory);
+        setCache(cache);
+        setMainMemory(memory);
 
         this.add(panelNorth, BorderLayout.NORTH);
         this.add(panelEast, BorderLayout.EAST);
         this.add(panelWest, BorderLayout.WEST);
         this.add(panelSouth, BorderLayout.SOUTH);
 
-        btnPlay.addActionListener(e -> {
-            updateCache(panelCache, scrollCache, cache);
-        });
+        // btnPlay.addActionListener(e -> {
+        // updateCache(cache);
+        // });
 
         btnOutput.addActionListener(e -> {
             JOptionPane.showMessageDialog(null,
@@ -80,11 +77,11 @@ public class SnapScreen extends JPanel {
 
     }
 
-    private void setCache(JPanel panel, JScrollPane scroll, Cache c) {
-        panel.removeAll();
+    private void setCache(Cache c) {
+        panelCache.removeAll();
         String color;
-        panel.revalidate();
-        panel.repaint();
+        panelCache.revalidate();
+        panelCache.repaint();
         int i = 0;
         String input;
         for (CacheBlock cacheBlock : c.cache) {
@@ -103,9 +100,9 @@ public class SnapScreen extends JPanel {
                         "<html><p style = \"width: 80px; padding: 2px; background-color:" + color
                                 + "\">" + input + "</p></html>");
                 messageLabel.setOpaque(true);
-                panel.add(messageLabel);
+                panelCache.add(messageLabel);
                 this.revalidate();
-                scroll.getViewport().setViewPosition(messageLabel.getLocation());
+                scrollCache.getViewport().setViewPosition(messageLabel.getLocation());
                 this.repaint();
 
                 i++;
@@ -114,16 +111,16 @@ public class SnapScreen extends JPanel {
         }
     }
 
-    private void updateCache(JPanel panel, JScrollPane scroll, Cache c) {
-        setCache(panel, scroll, c);
+    public void updateCache(Cache c) {
+        setCache(c);
         showOutputBtn();
     }
 
-    private void setMainMemory(JPanel panel, JScrollPane scroll, Memory m) {
-        panel.removeAll();
+    private void setMainMemory(Memory m) {
+        panelMainMemory.removeAll();
         String color;
-        panel.revalidate();
-        panel.repaint();
+        panelMainMemory.revalidate();
+        panelMainMemory.repaint();
         int i = 0;
         String input;
         for (MemoryBlock memBlock : m.memory) {
@@ -142,9 +139,9 @@ public class SnapScreen extends JPanel {
                         "<html><p style = \"width: 80px; padding: 2px; background-color:" + color
                                 + "\">" + input + "</p></html>");
                 messageLabel.setOpaque(true);
-                panel.add(messageLabel);
+                panelMainMemory.add(messageLabel);
                 this.revalidate();
-                scroll.getViewport().setViewPosition(messageLabel.getLocation());
+                scrollMainMemory.getViewport().setViewPosition(messageLabel.getLocation());
                 this.repaint();
 
                 i++;

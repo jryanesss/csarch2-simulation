@@ -5,10 +5,9 @@ import javax.swing.*;
 
 public class Controller implements ActionListener {
     private GUI gui;
-    private CacheSimulation cacheSimulator;
-    private int blockSize = 16; // should be 16. temporarily decreased for testing purposes. CHANGE
+    private int blockSize = 4; // should be 16. temporarily decreased for testing purposes. CHANGE
                                // LATER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    private int numCacheBlocks = 32; // should be 32. temporarily decreased for testing purposes. CHANGE
+    private int numCacheBlocks = 8; // should be 32. temporarily decreased for testing purposes. CHANGE
                                     // LATER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     private Cache cache;
     private Memory memory;
@@ -17,11 +16,10 @@ public class Controller implements ActionListener {
     int numMemBlocks;
 
     public static void main(String[] args) throws Exception {
-        new Controller(new GUI(), new CacheSimulation());
+        new Controller(new GUI());
     }
 
-    public Controller(GUI gui, CacheSimulation cacheSimulator) {
-        this.cacheSimulator = cacheSimulator;
+    public Controller(GUI gui) {
         this.gui = gui;
         this.gui.setActionListenerToAll(this);
         updateView();
@@ -54,8 +52,8 @@ public class Controller implements ActionListener {
                     case "Test Case 1":
                         if (selectedSimOption.equals("Snapshot")) {
                             numMemBlocks = 2 * numMemBlocks; // 2n
-                            Cache cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
-                            Memory memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
+                            cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
+                            memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
                             this.gui.changeScreen("SNAP");
                             CacheSimulation.testCase1(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
                         } else {
@@ -64,9 +62,9 @@ public class Controller implements ActionListener {
                         break;
                     case "Test Case 2":
                         if (selectedSimOption.equals("Snapshot")) {
-                            numMemBlocks = 4 * numMemBlocks;
-                            Cache cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
-                            Memory memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
+                            numMemBlocks = 4 * numMemBlocks; // 4n
+                            cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
+                            memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
                             this.gui.changeScreen("SNAP");
                             CacheSimulation.testCase2(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
                         } else {
@@ -75,9 +73,9 @@ public class Controller implements ActionListener {
                         break;
                     case "Test Case 3":
                         if (selectedSimOption.equals("Snapshot")) {
-                            numMemBlocks = 2 * numMemBlocks;
-                            Cache cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
-                            Memory memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
+                            numMemBlocks = 2 * numMemBlocks; // 2n
+                            cache = new Cache(numMemBlocks, blockSize, numCacheBlocks);
+                            memory = new Memory(numMemBlocks, blockSize, numCacheBlocks);
                             this.gui.changeScreen("SNAP");
                             CacheSimulation.testCase3(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
                         } else {
@@ -88,6 +86,10 @@ public class Controller implements ActionListener {
             } catch (NumberFormatException ex) {
                 this.gui.getStartScreen().printError();
             }
+
+        }
+        if (e.getActionCommand().equals("\u25B6")) {
+            this.gui.getSnapScreen().updateCache(cache);
         }
     }
 }
