@@ -1,21 +1,23 @@
-# csarch2-simulation
-CSARCH2 Simulation Project <br>
+# CSARCH2 S11 Group 4 Simulation Project <br>
 
-MEMBERS <br>
-<b>LADA, MARTIN JOSE MERCHAN <br>
-MERTO, ALLEN NEO MASANGKAY <br>
-MIRANDA, JAMAR LANCE FERNANDEZ <br>
-SIMBAHON, JOOLZ RYANE CHAVEZ </b><br>
+## GROUP MEMBERS <br>
+- LADA, MARTIN JOSE MERCHAN
+- MERTO, ALLEN NEO MASANGKAY
+- MIRANDA, JAMAR LANCE FERNANDEZ
+- SIMBAHON, JOOLZ RYANE CHAVEZ
 <br>
 
-CACHE SPECIFICATIONS
+## LOCAL SET-UP
+1. Clone the repository or download the source code as ZIP.
+2. Simply run `csarch2-simulation.jar`
+<br>
+
+## CACHE SPECIFICATIONS
 - Mapping Function: <b>Full Associative (FA)</b>
 - Replacement Algorithm: <b>First-In-First-Out (FIFO)</b>
+<br>
 
-<br>
-TEST CASES ANALYSIS
-<br>
-<br>
+## TEST CASES ANALYSIS
 <b> Test Case A: Sequential Sequence </b> <br>
 <br>
 For this test case, the number of memory blocks is 2n where n is the number of memory blocks the user specified and the number of cache blocks is set at 32.
