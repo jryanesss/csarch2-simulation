@@ -1,7 +1,9 @@
 package cachesimulation;
 
-import javax.swing.*;
-import java.awt.*;
+import java.awt.CardLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 public class GUI extends JFrame {
     // Screens of the game

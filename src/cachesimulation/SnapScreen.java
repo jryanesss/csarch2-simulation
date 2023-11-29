@@ -1,7 +1,19 @@
 package cachesimulation;
 
-import java.awt.*;
-import javax.swing.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 
 public class SnapScreen extends JPanel {
 
@@ -56,7 +68,7 @@ public class SnapScreen extends JPanel {
         headerMainMemory.add(lblMainMemory);
         panelEast.add(headerMainMemory, BorderLayout.NORTH);
         panelEast.add(scrollMainMemory, BorderLayout.CENTER);
-
+        
         setCache(cache);
         setMainMemory(memory);
 
@@ -71,8 +83,31 @@ public class SnapScreen extends JPanel {
 
         btnOutput.addActionListener(e -> {
             JOptionPane.showMessageDialog(null,
-                    "MEMORY ACCESS COUNT:\nCACHE HIT COUNT:\nCACHE MISS COUNT:\nCACHE HIT RATE:\nCACHE MISS RATE:\nAVERAGE MEMORY ACCESS TIME:\nTOTAL MEMORY ACCESS TIME:\n\nOutput file can be found in the same folder.",
+                    "MEMORY ACCESS COUNT: " + cache.memoryAccessCount +
+                    "\nCACHE HIT COUNT: " +  cache.cacheHitCount +
+                    "\nCACHE MISS COUNT: " + cache.cacheMissCount +
+                    "\nCACHE HIT RATE: " + cache.cacheHitRate * 100 + "%" +
+                    "\nCACHE MISS RATE: " + cache.cacheMissRate * 100 + "%" +
+                    "\nAVERAGE MEMORY ACCESS TIME: " + cache.avgMemoryAccessTime + " ns" +
+                    "\nTOTAL MEMORY ACCESS TIME: " + cache.totalMemoryAccessTime + " ns" +
+                    "\n\nOutput file can be found in the same folder.",
                     "Output", JOptionPane.PLAIN_MESSAGE);
+
+            try {
+                BufferedWriter writer = new BufferedWriter(new FileWriter("SimulationOutput.txt")); // TODO: CHANGE FILENAME LATER!!!!!!!!!!!!!!!!!!!1
+
+                writer.write("MEMORY ACCESS COUNT: " + cache.memoryAccessCount +
+                            "\nCACHE HIT COUNT: " +  cache.cacheHitCount +
+                            "\nCACHE MISS COUNT: " + cache.cacheMissCount +
+                            "\nCACHE HIT RATE: " + cache.cacheHitRate * 100 + "%" +
+                            "\nCACHE MISS RATE: " + cache.cacheMissRate * 100 + "%" +
+                            "\nAVERAGE MEMORY ACCESS TIME: " + cache.avgMemoryAccessTime + " ns" +
+                            "\nTOTAL MEMORY ACCESS TIME: " + cache.totalMemoryAccessTime + " ns");
+                writer.close();
+            } catch (IOException err) {
+                err.printStackTrace();
+            }
+            
         });
 
     }

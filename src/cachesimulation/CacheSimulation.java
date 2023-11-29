@@ -1,6 +1,8 @@
 package cachesimulation;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Random;
 
 // used by the Memory class
 // this is what's inside the memory
@@ -80,6 +82,16 @@ class Cache {
     CacheBlock[] cache;
     Queue<Integer> fifoQueue;
 
+    int memoryAccessCount;
+    int cacheHitCount;
+    int cacheMissCount;
+    float cacheHitRate;
+    float cacheMissRate;
+    float avgMemoryAccessTime;
+    float totalMemoryAccessTime;
+
+    float missPenalty;
+
     Cache(int numMemoryBlocks, int blockSize, int numCacheBlocks) {
         this.blockSize = blockSize;
         this.numMemoryBlocks = numMemoryBlocks;
@@ -87,6 +99,16 @@ class Cache {
         this.numCacheBlocks = numCacheBlocks;
         this.cache = new CacheBlock[numCacheBlocks];
         this.fifoQueue = new LinkedList<>();
+
+        this.memoryAccessCount = 0;
+        this.cacheHitCount = 0;
+        this.cacheMissCount = 0;
+        this.cacheHitRate = 0.0f;
+        this.cacheMissRate = 0.0f;
+        this.avgMemoryAccessTime = 0.0f;
+        this.totalMemoryAccessTime = 0.0f;
+
+        this.missPenalty = 1 + (10 * numCacheBlocks) + 1;
 
         // initializes each CacheBlock with default values
         for (int i = 0; i < numCacheBlocks; i++) {
@@ -118,34 +140,52 @@ class Cache {
      * return false;
      * }
      */
+
+     void computeSimulationMetrics() {
+        this.memoryAccessCount = this.cacheHitCount + this.cacheMissCount;
+        this.cacheHitRate = (float) this.cacheHitCount / this.memoryAccessCount;
+        this.cacheMissRate = (float) this.cacheMissCount / this.memoryAccessCount;
+        this.avgMemoryAccessTime = (this.cacheHitRate * 1) + (this.cacheMissRate * this.missPenalty);
+        this.totalMemoryAccessTime = this.memoryAccessCount * this.avgMemoryAccessTime;
+        printSimulationMetrics(this.cacheHitRate * 100, this.cacheMissRate * 100);
+    }
+
+    void printSimulationMetrics(float cacheHitRate, float cacheMissRate) {
+        System.out.println("Memory Access Count: " + this.memoryAccessCount);
+        System.out.println("Cache Hit Count: " + this.cacheHitCount);
+        System.out.println("Cache Miss Count: " + this.cacheMissCount);
+        System.out.println("Cache Hit Rate: " + cacheHitRate + "%");
+        System.out.println("Cache Miss Rate: " + cacheMissRate + "%");
+        System.out.println("Average Memory Access Time: " + this.avgMemoryAccessTime + " ns");
+        System.out.println("Total Memory Access Time: " + this.totalMemoryAccessTime + " ns");
+        System.out.println();
+    }
+
     void replaceBlock(int tag, MemoryBlock memory) {
 
         boolean isHit = false;
 
-        // checks if the tag is already in the cache
-        // if it is, then cache hit
-        for (int i = 0; i < cache.length; i++) {
-            if (cache[i].tag == tag) {
+        for (int i = 0; i < cache.length; i++){
+            if (cache[i].tag == tag){
                 isHit = true;
+                this.cacheHitCount++;
             }
         }
 
         // cache miss
-        if (isHit == false) {
+        if (isHit == false){
             int replacedBlockIndex = fifoQueue.poll(); // removes element from the queue
 
-            // CacheBlock replacedBlock = cache[replacedBlockIndex];
-
-            for (int i = 0; i < memory.data.length; i++) {
+            for (int i = 0; i < memory.data.length; i++){
                 cache[replacedBlockIndex].data[i] = memory.data[i];
             }
 
+            this.cacheMissCount++;
             cache[replacedBlockIndex].tag = tag;
             cache[replacedBlockIndex].valid = true; // valid means replaced
 
             fifoQueue.add(replacedBlockIndex);
         }
-
     }
 
     void printBlocks() {
@@ -209,6 +249,8 @@ public class CacheSimulation {
         System.out.println("--END OF TEST CASE 1--");
         System.out.println();
         System.out.println();
+
+        cache.computeSimulationMetrics();
     }
 
     static void testCase2(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
@@ -255,6 +297,8 @@ public class CacheSimulation {
         System.out.println("--END OF TEST CASE 2--");
         System.out.println();
         System.out.println();
+
+        cache.computeSimulationMetrics();
     }
 
     static void testCase3(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
@@ -303,6 +347,8 @@ public class CacheSimulation {
         System.out.println("--END OF TEST CASE 3--");
         System.out.println();
         System.out.println();
+
+        cache.computeSimulationMetrics();
     }
 
     static void sstestCase1(int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
