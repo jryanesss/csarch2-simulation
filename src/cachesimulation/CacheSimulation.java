@@ -243,25 +243,18 @@ public class CacheSimulation {
 
     static void testCase1(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
         try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
-            cacheTraceWriter.write("--START OF TEST CASE 1--\n");
-            System.out.println("--START OF TEST CASE 1--");
+            cacheTraceWriter.write("--START OF TEST CASE 1--\n\n");
             int numRepeat = 4;
             memory.addRandomInputs();
             
             cacheTraceWriter.write("-----MEMORY-----\n");
-            System.out.println("-----MEMORY-----");
             memory.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
-            System.out.println();
-            System.out.println();
     
             // prints empty cache
             cacheTraceWriter.write("-----EMPTY CACHE-----\n");
-            System.out.println("-----EMPTY CACHE-----");
             cache.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
-            System.out.println();
-            System.out.println();
 
             gui.getSnapScreen().setSnapMenu(cache, memory);
     
@@ -269,9 +262,7 @@ public class CacheSimulation {
             for (int i = 0; i < numRepeat; i++) {
                 int rep = i + 1;
                 cacheTraceWriter.write("----------REPEAT: " + rep + "----------\n");
-                System.out.println("----------REPEAT: " + rep + "----------");
-                System.out.println();
-    
+
                 // loop for replacing each cache block
                 for (int j = 0; j < numMemoryBlocks; j++) {
     
@@ -279,27 +270,18 @@ public class CacheSimulation {
     
                     // traces replacement of each block in cache
                     cacheTraceWriter.write("-----INSERTING BLOCK " + j + " FROM MEMORY-----\n");
-                    System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
                     cache.printBlocks(cacheTraceWriter);
                     cacheTraceWriter.write("\n\n");
-                    System.out.println();
-                    System.out.println();
                 }
             }
 
             cacheTraceWriter.flush();
 
             cacheTraceWriter.write("-----Final Snapshot-----\n");
-            System.out.println("-----Final Snapshot-----");
             cache.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
-            System.out.println();
-            System.out.println();
             
             cacheTraceWriter.write("--END OF TEST CASE 1--\n\n");
-            System.out.println("--END OF TEST CASE 1--");
-            System.out.println();
-            System.out.println();
     
             cache.computeSimulationMetrics();
 
@@ -311,24 +293,18 @@ public class CacheSimulation {
 
     static void testCase2(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
         try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
-            System.out.println("--START OF TEST CASE 2--");
+            System.out.println("--START OF TEST CASE 2--\n\n");
             int numRepeat = 1;
             memory.addRandomInputs();
 
             cacheTraceWriter.write("-----MEMORY-----");
-            System.out.println("-----MEMORY-----");
             memory.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
-            System.out.println();
-            System.out.println();
 
             // prints empty cache
             cacheTraceWriter.write("-----EMPTY CACHE-----");
-            System.out.println("-----EMPTY CACHE-----");
             cache.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
-            System.out.println();
-            System.out.println();
 
             Random random = new Random();
 
@@ -338,8 +314,6 @@ public class CacheSimulation {
             for (int i = 0; i < numRepeat; i++) {
                 int rep = i + 1;
                 cacheTraceWriter.write("----------REPEAT: " + rep + "----------\n");
-                System.out.println("----------REPEAT: " + rep + "----------");
-                System.out.println();
 
                 // loop for replacing each cache block
                 for (int j = 0; j < numMemoryBlocks; j++) {
@@ -349,19 +323,13 @@ public class CacheSimulation {
 
                     // traces replacement of each block in cache
                     cacheTraceWriter.write("-----INSERTING BLOCK " + randomIndex + " FROM MEMORY-----\n");
-                    System.out.println("-----INSERTING BLOCK " + randomIndex + " FROM MEMORY-----");
                     cache.printBlocks(cacheTraceWriter);
                     cacheTraceWriter.write("\n\n");
-                    System.out.println();
-                    System.out.println();
                 }
                 cacheTraceWriter.flush();
             }
 
             cacheTraceWriter.write("--END OF TEST CASE 2--\n\n");
-            System.out.println("--END OF TEST CASE 2--");
-            System.out.println();
-            System.out.println();
 
             cache.computeSimulationMetrics();
 
@@ -373,25 +341,18 @@ public class CacheSimulation {
 
     static void testCase3(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
         try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
-            cacheTraceWriter.write("--START OF TEST CASE 3--");
-            System.out.println("--START OF TEST CASE 3--");
+            cacheTraceWriter.write("--START OF TEST CASE 3--\n\n");
             int numRepeats = 4;
             memory.addRandomInputs();
 
             cacheTraceWriter.write("-----MEMORY-----");
-            System.out.println("-----MEMORY-----");
             memory.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
-            System.out.println();
-            System.out.println();
 
             // prints empty cache
             cacheTraceWriter.write("-----EMPTY CACHE-----");
-            System.out.println("-----EMPTY CACHE-----");
             cache.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
-            System.out.println();
-            System.out.println();
 
             gui.getSnapScreen().setSnapMenu(cache, memory);
 
@@ -399,8 +360,6 @@ public class CacheSimulation {
             for (int i = 0; i < numRepeats; i++) {
                 int seq = i + 1;
                 cacheTraceWriter.write("----------REPEAT: " + (seq) + "----------\n");
-                System.out.println("----------REPEAT: " + (seq) + "----------");
-                System.out.println();
                 boolean repeated = false;
                 // loop for replacing each cache block in the sequence
                 for (int j = 0; j < numMemoryBlocks; j++) {
@@ -409,11 +368,8 @@ public class CacheSimulation {
 
                     // traces replacement of each block in cache
                     cacheTraceWriter.write("-----INSERTING BLOCK " + j + " FROM MEMORY-----\n");
-                    System.out.println("-----INSERTING BLOCK " + j + " FROM MEMORY-----");
                     cache.printBlocks(cacheTraceWriter);
                     cacheTraceWriter.write("\n\n");
-                    System.out.println();
-                    System.out.println();
 
                     if (j >= numCacheBlocks - 2 && repeated == false) {
                         j = 0;
@@ -424,11 +380,10 @@ public class CacheSimulation {
 
             cacheTraceWriter.flush();
 
-            System.out.println("--END OF TEST CASE 3--");
-            System.out.println();
-            System.out.println();
+            cacheTraceWriter.write("--END OF TEST CASE 3--\n\n");
 
             cache.computeSimulationMetrics();
+            
             cacheTraceWriter.close();
         } catch (Exception e) {
             e.printStackTrace();
@@ -497,7 +452,7 @@ public class CacheSimulation {
                     });
 
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                     }
@@ -546,7 +501,7 @@ public class CacheSimulation {
                     }
 
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                     }
