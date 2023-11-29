@@ -8,8 +8,8 @@ import javax.swing.JTextArea;
 
 public class Controller implements ActionListener {
     private GUI gui;
-    private int blockSize = 4; // 16
-    private int numCacheBlocks = 8; // 32
+    private int blockSize = 16; // 16
+    private int numCacheBlocks = 32; // 32
     private Cache cache;
     private Memory memory;
     String selectedTestCase;
