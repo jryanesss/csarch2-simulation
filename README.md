@@ -36,15 +36,20 @@ TEST CASES ANALYSIS
 
 <br>
 <br>
-<b> Test Case C: Mid-Repeat Sequence </b>  <be>
+<b> Test Case C: Mid-Repeat Sequence </b> <br>
 <br>
 For this test case, the number of memory blocks is 2n where n is the number of memory blocks the user specified and the number of cache blocks is set at 32. <br>
   The first half of the memory blocks ( n - 1 ) will be inserted first, it will then be followed by memory block 1 until memory block 2n-1. This will be done 4 times.
    <br>
   <br>
 If n = 32:
+<br>
 - There will be a total of 376 memory access counts
+<br>
 - 120 cache hits
+<br>
 - 256 cache misses
+<br>
 - An average memory access time of 219.55 ns
+<br>
 - A total memory access time of 82552 ns
