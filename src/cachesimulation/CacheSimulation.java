@@ -391,6 +391,9 @@ public class CacheSimulation {
     }
 
     static void stepTestCase1(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
+
+        CacheSimulation.testCase1(cache, memory, blockSize, numCacheBlocks, numMemoryBlocks, gui);
+
         int numRepeat = 4;
 
         Thread computationThread = new Thread(() -> {
@@ -409,7 +412,7 @@ public class CacheSimulation {
                     });
 
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(500);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                     }
@@ -426,6 +429,9 @@ public class CacheSimulation {
 
     static void stepTestCase2(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks,
             GUI gui) {
+
+        CacheSimulation.testCase2(cache, memory, blockSize, numCacheBlocks, numMemoryBlocks, gui);
+
         Random random = new Random();
         int numRepeat = 1;
 
@@ -452,7 +458,7 @@ public class CacheSimulation {
                     });
 
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(500);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                     }
@@ -469,6 +475,8 @@ public class CacheSimulation {
 
     static void stepTestCase3(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks,
             GUI gui) {
+
+        CacheSimulation.testCase3(cache, memory, blockSize, numCacheBlocks, numMemoryBlocks, gui);
 
         System.out.println("--START OF TEST CASE 3--");
         int numRepeats = 4;
@@ -501,7 +509,7 @@ public class CacheSimulation {
                     }
 
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(500);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                     }

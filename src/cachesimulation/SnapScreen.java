@@ -79,7 +79,7 @@ public class SnapScreen extends JPanel {
 
         btnOutput.addActionListener(e -> {
             JOptionPane.showMessageDialog(null,
-                    "MEMORY ACCESS COUNT: " + cache.memoryAccessCount +
+                    "\nMEMORY ACCESS COUNT: " + cache.memoryAccessCount +
                     "\nCACHE HIT COUNT: " +  cache.cacheHitCount +
                     "\nCACHE MISS COUNT: " + cache.cacheMissCount +
                     "\nCACHE HIT RATE: " + cache.cacheHitRate * 100 + "%" +
@@ -90,7 +90,7 @@ public class SnapScreen extends JPanel {
                     "Output", JOptionPane.PLAIN_MESSAGE);
 
             try {
-                BufferedWriter outputWriter = new BufferedWriter(new FileWriter("SimulationOutput.txt")); // TODO: CHANGE FILENAME LATER!!!!!!!!!!!!!!!!!!!1
+                BufferedWriter outputWriter = new BufferedWriter(new FileWriter("simulationOutput.txt"));
 
                 outputWriter.write("MEMORY ACCESS COUNT: " + cache.memoryAccessCount +
                             "\nCACHE HIT COUNT: " +  cache.cacheHitCount +
