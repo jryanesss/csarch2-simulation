@@ -319,16 +319,16 @@ public class CacheSimulation {
 
     static void testCase2(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
         try (BufferedWriter cacheTraceWriter = new BufferedWriter(new FileWriter("cacheMemoryTrace.txt"))) {
-            System.out.println("--START OF TEST CASE 2--\n\n");
+            cacheTraceWriter.write("--START OF TEST CASE 2--\n\n");
             int numRepeat = 1;
             // memory.addRandomInputs();
 
-            cacheTraceWriter.write("-----MEMORY-----");
+            cacheTraceWriter.write("-----MEMORY-----\n");
             memory.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
 
             // prints empty cache
-            cacheTraceWriter.write("-----EMPTY CACHE-----");
+            cacheTraceWriter.write("-----EMPTY CACHE-----\n");
             cache.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
 
@@ -371,12 +371,12 @@ public class CacheSimulation {
             int numRepeats = 4;
             // memory.addRandomInputs();
 
-            cacheTraceWriter.write("-----MEMORY-----");
+            cacheTraceWriter.write("-----MEMORY-----\n");
             memory.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
 
             // prints empty cache
-            cacheTraceWriter.write("-----EMPTY CACHE-----");
+            cacheTraceWriter.write("-----EMPTY CACHE-----\n");
             cache.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
 
