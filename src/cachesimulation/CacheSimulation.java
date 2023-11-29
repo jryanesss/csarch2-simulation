@@ -177,9 +177,9 @@ public class CacheSimulation {
         int numMemoryBlocks = scanner.nextInt();
 
         //----------------------------------------------TEST CASES------------------------------------------------------//
-        testCase1(blockSize, numCacheBlocks, numMemoryBlocks);
+        //testCase1(blockSize, numCacheBlocks, numMemoryBlocks);
         //testCase2(blockSize, numCacheBlocks, numMemoryBlocks);
-        //testCase3(blockSize, numCacheBlocks, numMemoryBlocks);
+        testCase3(blockSize, numCacheBlocks, numMemoryBlocks);
 
         //----------------------------------------------TEST CASES------------------------------------------------------//
 
@@ -391,7 +391,7 @@ public class CacheSimulation {
                 System.out.println();
                 System.out.println();
                 
-                if (j >= numCacheBlocks - 2 && repeated == false){
+                if (j >= (numMemoryBlocks/2) - 2 && repeated == false){
                 	j = 0;
                 	repeated = true;
                 }
