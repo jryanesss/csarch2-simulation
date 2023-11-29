@@ -14,8 +14,16 @@ CACHE SPECIFICATIONS
 
 TEST CASES ANALYSIS
 
+<br>
+<b> Test Case A: Sequential Sequence </b>
 
+
+
+<br>
 <b> Test Case B: Random Sequence </b>
-  For this test case, the number of memory blocks is 4n where n is the number of memory blocks the user specified. Unlike the first test case, the sequence has no order and memory blocks are inserted into the cache blocks at random. <br>
-
+  For this test case, the number of memory blocks is 4n where n is the number of memory blocks the user specified and the number of cache blocks is set at 32. <br>
+  Unlike the first test case, the sequence has no order and memory blocks are inserted into the cache blocks at random. The same memomry block can be inserted one after the other. <br>
+  The sequence will go on 4n times. <br>
   
+<br>
+<b> Test Case C: Mid-Repeat Sequence </b>
