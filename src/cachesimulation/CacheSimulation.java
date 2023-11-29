@@ -419,12 +419,8 @@ public class CacheSimulation {
     static void stepTestCase1(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks,
             GUI gui) {
 
-        //CacheSimulation.testCase1(cache, memory, blockSize, numCacheBlocks, numMemoryBlocks, gui);
-        Cache cacheCopy = cache.copyCache();
-        Memory memoryCopy = memory.copyMemory();
-        CacheSimulation.testCase1(cacheCopy, memoryCopy, blockSize, numCacheBlocks,numMemoryBlocks, gui);
         int numRepeat = 4;
-
+        
         Thread computationThread = new Thread(() -> {
             for (int i = 0; i < numRepeat; i++) {
                 for (int j = 0; j < numMemoryBlocks; j++) {

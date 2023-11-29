@@ -2,16 +2,16 @@
 
 -----MEMORY-----
 Memory Block: 0
-Word 0: 8
-Word 1: 9
-Word 2: 2
-Word 3: 4
+Word 0: 0
+Word 1: 6
+Word 2: 0
+Word 3: 8
 
 Memory Block: 1
-Word 0: 7
-Word 1: 0
+Word 0: 8
+Word 1: 9
 Word 2: 1
-Word 3: 6
+Word 3: 4
 
 
 
@@ -69,10 +69,10 @@ Tag: -1 Word 3: -1
 ----------REPEAT: 1----------
 -----INSERTING BLOCK 0 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 8 
-Tag: 0 Word 1: 9 
-Tag: 0 Word 2: 2 
-Tag: 0 Word 3: 4 
+Tag: 0 Word 0: 0 
+Tag: 0 Word 1: 6 
+Tag: 0 Word 2: 0 
+Tag: 0 Word 3: 8 
 
 Cache Block: 1
 Tag: -1 Word 0: -1 
@@ -120,16 +120,16 @@ Tag: -1 Word 3: -1
 
 -----INSERTING BLOCK 1 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 8 
-Tag: 0 Word 1: 9 
-Tag: 0 Word 2: 2 
-Tag: 0 Word 3: 4 
+Tag: 0 Word 0: 0 
+Tag: 0 Word 1: 6 
+Tag: 0 Word 2: 0 
+Tag: 0 Word 3: 8 
 
 Cache Block: 1
-Tag: 1 Word 0: 7 
-Tag: 1 Word 1: 0 
+Tag: 1 Word 0: 8 
+Tag: 1 Word 1: 9 
 Tag: 1 Word 2: 1 
-Tag: 1 Word 3: 6 
+Tag: 1 Word 3: 4 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
@@ -172,16 +172,16 @@ Tag: -1 Word 3: -1
 ----------REPEAT: 2----------
 -----INSERTING BLOCK 0 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 8 
-Tag: 0 Word 1: 9 
-Tag: 0 Word 2: 2 
-Tag: 0 Word 3: 4 
+Tag: 0 Word 0: 0 
+Tag: 0 Word 1: 6 
+Tag: 0 Word 2: 0 
+Tag: 0 Word 3: 8 
 
 Cache Block: 1
-Tag: 1 Word 0: 7 
-Tag: 1 Word 1: 0 
+Tag: 1 Word 0: 8 
+Tag: 1 Word 1: 9 
 Tag: 1 Word 2: 1 
-Tag: 1 Word 3: 6 
+Tag: 1 Word 3: 4 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
@@ -223,16 +223,16 @@ Tag: -1 Word 3: -1
 
 -----INSERTING BLOCK 1 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 8 
-Tag: 0 Word 1: 9 
-Tag: 0 Word 2: 2 
-Tag: 0 Word 3: 4 
+Tag: 0 Word 0: 0 
+Tag: 0 Word 1: 6 
+Tag: 0 Word 2: 0 
+Tag: 0 Word 3: 8 
 
 Cache Block: 1
-Tag: 1 Word 0: 7 
-Tag: 1 Word 1: 0 
+Tag: 1 Word 0: 8 
+Tag: 1 Word 1: 9 
 Tag: 1 Word 2: 1 
-Tag: 1 Word 3: 6 
+Tag: 1 Word 3: 4 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
@@ -275,16 +275,16 @@ Tag: -1 Word 3: -1
 ----------REPEAT: 3----------
 -----INSERTING BLOCK 0 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 8 
-Tag: 0 Word 1: 9 
-Tag: 0 Word 2: 2 
-Tag: 0 Word 3: 4 
+Tag: 0 Word 0: 0 
+Tag: 0 Word 1: 6 
+Tag: 0 Word 2: 0 
+Tag: 0 Word 3: 8 
 
 Cache Block: 1
-Tag: 1 Word 0: 7 
-Tag: 1 Word 1: 0 
+Tag: 1 Word 0: 8 
+Tag: 1 Word 1: 9 
 Tag: 1 Word 2: 1 
-Tag: 1 Word 3: 6 
+Tag: 1 Word 3: 4 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
@@ -326,16 +326,16 @@ Tag: -1 Word 3: -1
 
 -----INSERTING BLOCK 1 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 8 
-Tag: 0 Word 1: 9 
-Tag: 0 Word 2: 2 
-Tag: 0 Word 3: 4 
+Tag: 0 Word 0: 0 
+Tag: 0 Word 1: 6 
+Tag: 0 Word 2: 0 
+Tag: 0 Word 3: 8 
 
 Cache Block: 1
-Tag: 1 Word 0: 7 
-Tag: 1 Word 1: 0 
+Tag: 1 Word 0: 8 
+Tag: 1 Word 1: 9 
 Tag: 1 Word 2: 1 
-Tag: 1 Word 3: 6 
+Tag: 1 Word 3: 4 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
@@ -378,16 +378,16 @@ Tag: -1 Word 3: -1
 ----------REPEAT: 4----------
 -----INSERTING BLOCK 0 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 8 
-Tag: 0 Word 1: 9 
-Tag: 0 Word 2: 2 
-Tag: 0 Word 3: 4 
+Tag: 0 Word 0: 0 
+Tag: 0 Word 1: 6 
+Tag: 0 Word 2: 0 
+Tag: 0 Word 3: 8 
 
 Cache Block: 1
-Tag: 1 Word 0: 7 
-Tag: 1 Word 1: 0 
+Tag: 1 Word 0: 8 
+Tag: 1 Word 1: 9 
 Tag: 1 Word 2: 1 
-Tag: 1 Word 3: 6 
+Tag: 1 Word 3: 4 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
@@ -429,16 +429,16 @@ Tag: -1 Word 3: -1
 
 -----INSERTING BLOCK 1 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 8 
-Tag: 0 Word 1: 9 
-Tag: 0 Word 2: 2 
-Tag: 0 Word 3: 4 
+Tag: 0 Word 0: 0 
+Tag: 0 Word 1: 6 
+Tag: 0 Word 2: 0 
+Tag: 0 Word 3: 8 
 
 Cache Block: 1
-Tag: 1 Word 0: 7 
-Tag: 1 Word 1: 0 
+Tag: 1 Word 0: 8 
+Tag: 1 Word 1: 9 
 Tag: 1 Word 2: 1 
-Tag: 1 Word 3: 6 
+Tag: 1 Word 3: 4 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
@@ -480,16 +480,16 @@ Tag: -1 Word 3: -1
 
 -----Final Snapshot-----
 Cache Block: 0
-Tag: 0 Word 0: 8 
-Tag: 0 Word 1: 9 
-Tag: 0 Word 2: 2 
-Tag: 0 Word 3: 4 
+Tag: 0 Word 0: 0 
+Tag: 0 Word 1: 6 
+Tag: 0 Word 2: 0 
+Tag: 0 Word 3: 8 
 
 Cache Block: 1
-Tag: 1 Word 0: 7 
-Tag: 1 Word 1: 0 
+Tag: 1 Word 0: 8 
+Tag: 1 Word 1: 9 
 Tag: 1 Word 2: 1 
-Tag: 1 Word 3: 6 
+Tag: 1 Word 3: 4 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 

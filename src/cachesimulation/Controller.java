@@ -98,15 +98,29 @@ public class Controller implements ActionListener {
         }
         if (e.getActionCommand().equals("\u25B6")) {
             if (selectedSimOption.equals("Step-by-Step")) {
+                Cache cacheCopy;
+                Memory memoryCopy;
                 switch (selectedTestCase) {
                     case "Test Case 1":
-                        CacheSimulation.stepTestCase1(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
+                        cacheCopy = cache.copyCache();
+                        memoryCopy = memory.copyMemory();
+                        CacheSimulation.testCase1(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
+                        CacheSimulation.stepTestCase1(cacheCopy, memoryCopy, blockSize, numCacheBlocks, numMemBlocks,
+                                gui);
                         break;
                     case "Test Case 2":
-                        CacheSimulation.stepTestCase2(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
+                        cacheCopy = cache.copyCache();
+                        memoryCopy = memory.copyMemory();
+                        CacheSimulation.testCase2(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
+                        CacheSimulation.stepTestCase2(cacheCopy, memoryCopy, blockSize, numCacheBlocks, numMemBlocks,
+                                gui);
                         break;
                     case "Test Case 3":
-                        CacheSimulation.stepTestCase3(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
+                        cacheCopy = cache.copyCache();
+                        memoryCopy = memory.copyMemory();
+                        CacheSimulation.testCase3(cache, memory, blockSize, numCacheBlocks, numMemBlocks, gui);
+                        CacheSimulation.stepTestCase3(cacheCopy, memoryCopy, blockSize, numCacheBlocks, numMemBlocks,
+                                gui);
                         break;
                 }
                 this.gui.getStepScreen().showOutputBtn();
