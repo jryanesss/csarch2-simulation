@@ -1,6 +1,9 @@
 package cachesimulation;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Random;
+import java.util.Scanner;
 
 // used by the Memory class
 // this is what's inside the memory
@@ -81,6 +84,16 @@ class Cache {
     CacheBlock[] cache;
     Queue<Integer> fifoQueue;
 
+    int memoryAccessCount;
+    int cacheHitCount;
+    int cacheMissCount;
+    float cacheHitRate;
+    float cacheMissRate;
+    float avgMemoryAccessTime;
+    int totalMemoryAccessTime;
+
+    int missPenalty;
+
     Cache(int numMemoryBlocks, int blockSize, int numCacheBlocks) {
         this.blockSize = blockSize;
         this.numMemoryBlocks = numMemoryBlocks;
@@ -88,6 +101,16 @@ class Cache {
         this.numCacheBlocks = numCacheBlocks;
         this.cache = new CacheBlock[numCacheBlocks];
         this.fifoQueue = new LinkedList<>();
+
+        this.memoryAccessCount = 0;
+        this.cacheHitCount = 0;
+        this.cacheMissCount = 0;
+        this.cacheHitRate = 0.0f;
+        this.cacheMissRate = 0.0f;
+        this.avgMemoryAccessTime = 0.0f;
+        this.totalMemoryAccessTime = 0;
+
+        this.missPenalty = 1 + (10 * numMemoryBlocks) + 1; // 1 + (10 * 32) + 1
 
         // initializes each CacheBlock with default values
         for (int i = 0; i < numCacheBlocks; i++) {
@@ -102,27 +125,29 @@ class Cache {
         }
     }
 
-    /*
-    boolean read(int address) {
-        int blockNumber = address / blockSize;
-        int tag = blockNumber;
-
-        for (CacheBlock block : cache) {
-            if (block.valid && block.tag == tag) {
-                System.out.println("Cache Hit!");
-                return true;
-            }
-        }
-
-        System.out.println("Cache Miss!");
-        //replaceBlock(tag);
-        return false;
+    void computeSimulationMetrics() {
+        this.cacheHitRate = (float) this.cacheHitCount / this.memoryAccessCount;
+        this.cacheMissRate = (float) this.cacheMissCount / this.memoryAccessCount;
+        this.avgMemoryAccessTime = (this.cacheHitRate * 1) + (this.cacheMissRate * this.missPenalty);
+        this.totalMemoryAccessTime = (this.cacheHitCount * blockSize * 1) + (this.cacheMissCount * blockSize * 11) + this.cacheMissCount * 1;
+        // Assuming memory access time is 10ns and cache acess time is 1ns
     }
-    */
+
     void replaceBlock(int tag, MemoryBlock memory) {
+
+        this.memoryAccessCount++;
+
         int replacedBlockIndex = fifoQueue.poll(); // removes element from the queue
 
-       //CacheBlock replacedBlock = cache[replacedBlockIndex];
+        System.out.println(replacedBlockIndex);
+
+        //CacheBlock replacedBlock = cache[replacedBlockIndex];
+
+        if(!cache[replacedBlockIndex].valid) {
+            this.cacheMissCount++;
+        } else {
+            this.cacheHitCount++;
+        }
 
         for (int i = 0; i < memory.data.length; i++){
             cache[replacedBlockIndex].data[i] = memory.data[i];
@@ -130,7 +155,6 @@ class Cache {
 
         cache[replacedBlockIndex].tag = tag;
         cache[replacedBlockIndex].valid = true; // valid means replaced
-
 
         fifoQueue.add(replacedBlockIndex);
     }
@@ -154,79 +178,61 @@ public class CacheSimulation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int blockSize = 4;     // should be 16. temporarily decreased for testing purposes.
-        int numCacheBlocks = 8; // should be 32. temporarily decreased for testing purposes.
+        int blockSize = 16;     // should be 16. temporarily decreased for testing purposes.
+        int numCacheBlocks = 32; // should be 32. temporarily decreased for testing purposes.
 
         System.out.print("Enter the number of memory blocks: ");
         int numMemoryBlocks = scanner.nextInt();
 
         //----------------------------------------------TEST CASES------------------------------------------------------//
-        testCase1(blockSize, numCacheBlocks, numMemoryBlocks);
+        //testCase1(blockSize, numCacheBlocks, numMemoryBlocks);
         //testCase2(blockSize, numCacheBlocks, numMemoryBlocks);
         //testCase3(blockSize, numCacheBlocks, numMemoryBlocks);
 
         //----------------------------------------------TEST CASES------------------------------------------------------//
 
-
-
-
-
-
         Cache cache = new Cache(numMemoryBlocks, blockSize, numCacheBlocks);
         Memory memory = new Memory(numMemoryBlocks, blockSize, numCacheBlocks);
 
-        // places random data inside the memory
+        //places random data inside the memory
         memory.addRandomInputs();
 
+        System.out.println("---------------------------------------MEMORY-----------------------------------------------");
+        memory.printBlocks();
+        System.out.println("--------------------------------------------------------------------------------------------");
+        System.out.println();
 
-//        System.out.println("---------------------------------------MEMORY-----------------------------------------------");
-//        memory.printBlocks();
-//        System.out.println("--------------------------------------------------------------------------------------------");
-//        System.out.println();
-//
-//
-//
-//        // prints empty cache
-//        System.out.println("------------------------------------EMPTY CACHE---------------------------------------------");
-//        cache.printBlocks();
-//        System.out.println("--------------------------------------------------------------------------------------------");
-//        System.out.println();
-//
-//        // replaces each word per block
-//        // loop iterates per block, not per word
-//        for (int i = 0; i < numMemoryBlocks; i++) {
-//            //cache.read(i);
-//            cache.replaceBlock(i, memory.memory[i]);
-//
-//            /*
-//            // traces replacement of each block in cache
-//            System.out.println("------------------------------------REPLACED CACHE------------------------------------------");
-//            cache.printBlocks();
-//            System.out.println("--------------------------------------------------------------------------------------------");
-//            System.out.println();
-//            */
-//        }
-//
-//        // prints final version of the cache after replacement from the memory
-//        System.out.println("------------------------------------REPLACED CACHE------------------------------------------");
-//        cache.printBlocks();
-//        System.out.println("--------------------------------------------------------------------------------------------");
-//        System.out.println();
+        // prints empty cache
+        System.out.println("------------------------------------EMPTY CACHE---------------------------------------------");
+        cache.printBlocks();
+        System.out.println("--------------------------------------------------------------------------------------------");
+        System.out.println();
 
+        // replaces each word per block
+        // loop iterates per block, not per word
+            for (int i = 0; i < numMemoryBlocks; i++) {
+                // cache.accessMemory(i);
+                cache.replaceBlock(i, memory.memory[i]);
+            }
 
+        // prints final version of the cache after replacement from the memory
+        System.out.println("------------------------------------REPLACED CACHE------------------------------------------");
+        cache.printBlocks();
+        System.out.println("--------------------------------------------------------------------------------------------");
+        System.out.println();
+       
         scanner.close();
+
+        cache.computeSimulationMetrics();
+        System.out.println("Memory Access Count: " + cache.memoryAccessCount);
+        System.out.println("Cache Hit Count: " + cache.cacheHitCount);
+        System.out.println("Cache Miss Count: " + cache.cacheMissCount);
+        System.out.println("Cache Hit Rate: " + cache.cacheHitRate);
+        System.out.println("Cache Miss Rate: " + cache.cacheMissRate);
+        System.out.println("Average Memory Access Time: " + cache.avgMemoryAccessTime);
+        System.out.println("Total Memory Access Time: " + cache.totalMemoryAccessTime);
+        System.out.println();
     }
-
-
-
-
-
-
-
-
-
-
-
 
     static void testCase1(int blockSize, int numCacheBlocks, int numMemoryBlocks){
 
@@ -268,7 +274,7 @@ public class CacheSimulation {
                 cache.printBlocks();
                 System.out.println();
                 System.out.println();
-
+                
             }
             
         }
@@ -281,8 +287,19 @@ public class CacheSimulation {
         System.out.println("--END OF TEST CASE 1--");
         System.out.println();
         System.out.println();
+
+        cache.computeSimulationMetrics();
+        System.out.println("Memory Access Count: " + cache.memoryAccessCount);
+        System.out.println("Cache Hit Count: " + cache.cacheHitCount);
+        System.out.println("Cache Miss Count: " + cache.cacheMissCount);
+        System.out.println("Cache Hit Rate: " + cache.cacheHitRate);
+        System.out.println("Cache Miss Rate: " + cache.cacheMissRate);
+        System.out.println("Average Memory Access Time: " + cache.avgMemoryAccessTime);
+        System.out.println("Total Memory Access Time: " + cache.totalMemoryAccessTime);
+        System.out.println();
     }
-     static void testCase2(int blockSize, int numCacheBlocks, int numMemoryBlocks){
+
+    static void testCase2(int blockSize, int numCacheBlocks, int numMemoryBlocks){
 
         System.out.println("--START OF TEST CASE 2--");
 
@@ -331,6 +348,7 @@ public class CacheSimulation {
         System.out.println();
         System.out.println();
     }
+    
     static void testCase3(int blockSize, int numCacheBlocks, int numMemoryBlocks){
 
         System.out.println("--START OF TEST CASE 3--");
