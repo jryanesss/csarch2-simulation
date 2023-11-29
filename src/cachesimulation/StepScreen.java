@@ -83,27 +83,27 @@ public class StepScreen extends JPanel {
         this.add(panelSouth, BorderLayout.SOUTH);
 
         btnOutput.addActionListener(e -> {
-           JOptionPane.showMessageDialog(null,
+            JOptionPane.showMessageDialog(null,
                     "\nMEMORY ACCESS COUNT: " + cache.memoryAccessCount +
-                    "\nCACHE HIT COUNT: " +  cache.cacheHitCount +
-                    "\nCACHE MISS COUNT: " + cache.cacheMissCount +
-                    "\nCACHE HIT RATE: " + cache.cacheHitRate * 100 + "%" +
-                    "\nCACHE MISS RATE: " + cache.cacheMissRate * 100 + "%" +
-                    "\nAVERAGE MEMORY ACCESS TIME: " + cache.avgMemoryAccessTime + " ns" +
-                    "\nTOTAL MEMORY ACCESS TIME: " + cache.totalMemoryAccessTime + " ns" +
-                    "\n\nOutput file can be found in the same folder.",
+                            "\nCACHE HIT COUNT: " + cache.cacheHitCount +
+                            "\nCACHE MISS COUNT: " + cache.cacheMissCount +
+                            "\nCACHE HIT RATE: " + cache.cacheHitRate * 100 + "%" +
+                            "\nCACHE MISS RATE: " + cache.cacheMissRate * 100 + "%" +
+                            "\nAVERAGE MEMORY ACCESS TIME: " + cache.avgMemoryAccessTime + " ns" +
+                            "\nTOTAL MEMORY ACCESS TIME: " + cache.totalMemoryAccessTime + " ns" +
+                            "\n\nOutput file can be found in the same folder.",
                     "Output", JOptionPane.PLAIN_MESSAGE);
 
             try {
                 BufferedWriter outputWriter = new BufferedWriter(new FileWriter("simulationOutput.txt"));
 
                 outputWriter.write("MEMORY ACCESS COUNT: " + cache.memoryAccessCount +
-                            "\nCACHE HIT COUNT: " +  cache.cacheHitCount +
-                            "\nCACHE MISS COUNT: " + cache.cacheMissCount +
-                            "\nCACHE HIT RATE: " + cache.cacheHitRate * 100 + "%" +
-                            "\nCACHE MISS RATE: " + cache.cacheMissRate * 100 + "%" +
-                            "\nAVERAGE MEMORY ACCESS TIME: " + cache.avgMemoryAccessTime + " ns" +
-                            "\nTOTAL MEMORY ACCESS TIME: " + cache.totalMemoryAccessTime + " ns");
+                        "\nCACHE HIT COUNT: " + cache.cacheHitCount +
+                        "\nCACHE MISS COUNT: " + cache.cacheMissCount +
+                        "\nCACHE HIT RATE: " + cache.cacheHitRate * 100 + "%" +
+                        "\nCACHE MISS RATE: " + cache.cacheMissRate * 100 + "%" +
+                        "\nAVERAGE MEMORY ACCESS TIME: " + cache.avgMemoryAccessTime + " ns" +
+                        "\nTOTAL MEMORY ACCESS TIME: " + cache.totalMemoryAccessTime + " ns");
                 outputWriter.close();
             } catch (IOException err) {
                 err.printStackTrace();
@@ -201,8 +201,6 @@ public class StepScreen extends JPanel {
             if (cacheBlock.tag == index) {
                 color = "#FDC898";
                 scrollTo = new Point(0, i * 25);
-            } else {
-                lblHitMiss.setText("");
             }
             for (int number : cacheBlock.data) {
                 if (number == -1) {

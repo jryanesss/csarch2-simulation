@@ -39,6 +39,19 @@ class Memory {
         }
     }
 
+    Memory copyMemory() {
+        Memory copiedMemory = new Memory(this.numMemoryBlocks, this.blockSize, this.numCacheBlocks);
+
+        for (int i = 0; i < this.memory.length; i++) {
+            MemoryBlock originalBlock = this.memory[i];
+            MemoryBlock copiedBlock = new MemoryBlock(this.blockSize);
+            System.arraycopy(originalBlock.data, 0, copiedBlock.data, 0, this.blockSize);
+            copiedMemory.memory[i] = copiedBlock;
+        }
+
+        return copiedMemory;
+    }
+
     void addRandomInputs() {
         Random random = new Random();
 
@@ -136,6 +149,19 @@ class Cache {
         }
     }
 
+    Cache copyCache() {
+        Cache copiedCache = new Cache(this.numMemoryBlocks, this.blockSize, this.numCacheBlocks);
+
+        for (int i = 0; i < this.cache.length; i++) {
+            CacheBlock originalBlock = this.cache[i];
+            CacheBlock copiedBlock = new CacheBlock(originalBlock.tag, this.blockSize);
+            System.arraycopy(originalBlock.data, 0, copiedBlock.data, 0, this.blockSize);
+            copiedBlock.valid = originalBlock.valid;
+            copiedCache.cache[i] = copiedBlock;
+        }
+        return copiedCache;
+    }
+
     void computeSimulationMetrics() {
         this.memoryAccessCount = this.cacheHitCount + this.cacheMissCount;
         this.cacheHitRate = (float) this.cacheHitCount / this.memoryAccessCount;
@@ -158,20 +184,20 @@ class Cache {
 
     void replaceBlock(int tag, MemoryBlock memory) {
 
-       boolean isHit = false;
+        boolean isHit = false;
 
-        for (int i = 0; i < cache.length; i++){
-            if (cache[i].tag == tag){
+        for (int i = 0; i < cache.length; i++) {
+            if (cache[i].tag == tag) {
                 isHit = true;
                 this.cacheHitCount++;
             }
         }
 
         // cache miss
-        if (isHit == false){
+        if (isHit == false) {
             int replacedBlockIndex = fifoQueue.poll(); // removes element from the queue
 
-            for (int i = 0; i < memory.data.length; i++){
+            for (int i = 0; i < memory.data.length; i++) {
                 cache[replacedBlockIndex].data[i] = memory.data[i];
             }
 
@@ -212,7 +238,7 @@ class Cache {
 
             return replacedBlockIndex;
         } else {
-            return -1;
+            return -2;
         }
 
     }
@@ -246,18 +272,18 @@ public class CacheSimulation {
             cacheTraceWriter.write("--START OF TEST CASE 1--\n\n");
             int numRepeat = 4;
             memory.addRandomInputs();
-            
+
             cacheTraceWriter.write("-----MEMORY-----\n");
             memory.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
-    
+
             // prints empty cache
             cacheTraceWriter.write("-----EMPTY CACHE-----\n");
             cache.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
 
             gui.getSnapScreen().setSnapMenu(cache, memory);
-    
+
             // loop for # of sequence
             for (int i = 0; i < numRepeat; i++) {
                 int rep = i + 1;
@@ -265,9 +291,9 @@ public class CacheSimulation {
 
                 // loop for replacing each cache block
                 for (int j = 0; j < numMemoryBlocks; j++) {
-    
+
                     cache.replaceBlock(j, memory.memory[j]);
-    
+
                     // traces replacement of each block in cache
                     cacheTraceWriter.write("-----INSERTING BLOCK " + j + " FROM MEMORY-----\n");
                     cache.printBlocks(cacheTraceWriter);
@@ -280,15 +306,15 @@ public class CacheSimulation {
             cacheTraceWriter.write("-----Final Snapshot-----\n");
             cache.printBlocks(cacheTraceWriter);
             cacheTraceWriter.write("\n\n");
-            
+
             cacheTraceWriter.write("--END OF TEST CASE 1--\n\n");
-    
+
             cache.computeSimulationMetrics();
 
             cacheTraceWriter.close();
         } catch (Exception e) {
             e.printStackTrace();
-        }   
+        }
     }
 
     static void testCase2(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
@@ -383,17 +409,20 @@ public class CacheSimulation {
             cacheTraceWriter.write("--END OF TEST CASE 3--\n\n");
 
             cache.computeSimulationMetrics();
-            
+
             cacheTraceWriter.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    static void stepTestCase1(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks, GUI gui) {
+    static void stepTestCase1(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks,
+            GUI gui) {
 
-        CacheSimulation.testCase1(cache, memory, blockSize, numCacheBlocks, numMemoryBlocks, gui);
-
+        //CacheSimulation.testCase1(cache, memory, blockSize, numCacheBlocks, numMemoryBlocks, gui);
+        Cache cacheCopy = cache.copyCache();
+        Memory memoryCopy = memory.copyMemory();
+        CacheSimulation.testCase1(cacheCopy, memoryCopy, blockSize, numCacheBlocks,numMemoryBlocks, gui);
         int numRepeat = 4;
 
         Thread computationThread = new Thread(() -> {
@@ -401,7 +430,7 @@ public class CacheSimulation {
                 for (int j = 0; j < numMemoryBlocks; j++) {
                     int index = cache.stepReplaceBlock(j, memory.memory[j]);
 
-                    // Highlights replaced cache block and current memory block
+                    // // Highlights replaced cache block and current memory block
                     gui.getStepScreen().highlightCacheBlock(cache, index);
                     gui.getStepScreen().highlightMemBlock(memory, j);
 
@@ -430,7 +459,9 @@ public class CacheSimulation {
     static void stepTestCase2(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks,
             GUI gui) {
 
-        CacheSimulation.testCase2(cache, memory, blockSize, numCacheBlocks, numMemoryBlocks, gui);
+        Cache cacheCopy = cache.copyCache();
+        Memory memoryCopy = memory.copyMemory();
+        CacheSimulation.testCase2(cacheCopy, memoryCopy, blockSize, numCacheBlocks, numMemoryBlocks, gui);
 
         Random random = new Random();
         int numRepeat = 1;
@@ -476,8 +507,9 @@ public class CacheSimulation {
     static void stepTestCase3(Cache cache, Memory memory, int blockSize, int numCacheBlocks, int numMemoryBlocks,
             GUI gui) {
 
-        CacheSimulation.testCase3(cache, memory, blockSize, numCacheBlocks, numMemoryBlocks, gui);
-
+        Cache cacheCopy = cache.copyCache();
+        Memory memoryCopy = memory.copyMemory();
+        CacheSimulation.testCase3(cacheCopy, memoryCopy, blockSize, numCacheBlocks, numMemoryBlocks, gui);
         System.out.println("--START OF TEST CASE 3--");
         int numRepeats = 4;
 
