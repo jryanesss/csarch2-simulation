@@ -2,16 +2,40 @@
 
 -----MEMORY-----
 Memory Block: 0
-Word 0: 0
-Word 1: 6
+Word 0: 5
+Word 1: 8
 Word 2: 0
-Word 3: 8
+Word 3: 0
+Word 4: 0
+Word 5: 9
+Word 6: 9
+Word 7: 2
+Word 8: 0
+Word 9: 9
+Word 10: 2
+Word 11: 1
+Word 12: 1
+Word 13: 5
+Word 14: 6
+Word 15: 0
 
 Memory Block: 1
-Word 0: 8
-Word 1: 9
-Word 2: 1
+Word 0: 7
+Word 1: 7
+Word 2: 5
 Word 3: 4
+Word 4: 1
+Word 5: 9
+Word 6: 3
+Word 7: 6
+Word 8: 1
+Word 9: 7
+Word 10: 8
+Word 11: 0
+Word 12: 4
+Word 13: 8
+Word 14: 4
+Word 15: 2
 
 
 
@@ -21,511 +45,5791 @@ Tag: -1 Word 0: -1
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 1
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
 ----------REPEAT: 1----------
 -----INSERTING BLOCK 0 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 0 
-Tag: 0 Word 1: 6 
+Tag: 0 Word 0: 5 
+Tag: 0 Word 1: 8 
 Tag: 0 Word 2: 0 
-Tag: 0 Word 3: 8 
+Tag: 0 Word 3: 0 
+Tag: 0 Word 4: 0 
+Tag: 0 Word 5: 9 
+Tag: 0 Word 6: 9 
+Tag: 0 Word 7: 2 
+Tag: 0 Word 8: 0 
+Tag: 0 Word 9: 9 
+Tag: 0 Word 10: 2 
+Tag: 0 Word 11: 1 
+Tag: 0 Word 12: 1 
+Tag: 0 Word 13: 5 
+Tag: 0 Word 14: 6 
+Tag: 0 Word 15: 0 
 
 Cache Block: 1
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
 -----INSERTING BLOCK 1 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 0 
-Tag: 0 Word 1: 6 
+Tag: 0 Word 0: 5 
+Tag: 0 Word 1: 8 
 Tag: 0 Word 2: 0 
-Tag: 0 Word 3: 8 
+Tag: 0 Word 3: 0 
+Tag: 0 Word 4: 0 
+Tag: 0 Word 5: 9 
+Tag: 0 Word 6: 9 
+Tag: 0 Word 7: 2 
+Tag: 0 Word 8: 0 
+Tag: 0 Word 9: 9 
+Tag: 0 Word 10: 2 
+Tag: 0 Word 11: 1 
+Tag: 0 Word 12: 1 
+Tag: 0 Word 13: 5 
+Tag: 0 Word 14: 6 
+Tag: 0 Word 15: 0 
 
 Cache Block: 1
-Tag: 1 Word 0: 8 
-Tag: 1 Word 1: 9 
-Tag: 1 Word 2: 1 
+Tag: 1 Word 0: 7 
+Tag: 1 Word 1: 7 
+Tag: 1 Word 2: 5 
 Tag: 1 Word 3: 4 
+Tag: 1 Word 4: 1 
+Tag: 1 Word 5: 9 
+Tag: 1 Word 6: 3 
+Tag: 1 Word 7: 6 
+Tag: 1 Word 8: 1 
+Tag: 1 Word 9: 7 
+Tag: 1 Word 10: 8 
+Tag: 1 Word 11: 0 
+Tag: 1 Word 12: 4 
+Tag: 1 Word 13: 8 
+Tag: 1 Word 14: 4 
+Tag: 1 Word 15: 2 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
 ----------REPEAT: 2----------
 -----INSERTING BLOCK 0 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 0 
-Tag: 0 Word 1: 6 
+Tag: 0 Word 0: 5 
+Tag: 0 Word 1: 8 
 Tag: 0 Word 2: 0 
-Tag: 0 Word 3: 8 
+Tag: 0 Word 3: 0 
+Tag: 0 Word 4: 0 
+Tag: 0 Word 5: 9 
+Tag: 0 Word 6: 9 
+Tag: 0 Word 7: 2 
+Tag: 0 Word 8: 0 
+Tag: 0 Word 9: 9 
+Tag: 0 Word 10: 2 
+Tag: 0 Word 11: 1 
+Tag: 0 Word 12: 1 
+Tag: 0 Word 13: 5 
+Tag: 0 Word 14: 6 
+Tag: 0 Word 15: 0 
 
 Cache Block: 1
-Tag: 1 Word 0: 8 
-Tag: 1 Word 1: 9 
-Tag: 1 Word 2: 1 
+Tag: 1 Word 0: 7 
+Tag: 1 Word 1: 7 
+Tag: 1 Word 2: 5 
 Tag: 1 Word 3: 4 
+Tag: 1 Word 4: 1 
+Tag: 1 Word 5: 9 
+Tag: 1 Word 6: 3 
+Tag: 1 Word 7: 6 
+Tag: 1 Word 8: 1 
+Tag: 1 Word 9: 7 
+Tag: 1 Word 10: 8 
+Tag: 1 Word 11: 0 
+Tag: 1 Word 12: 4 
+Tag: 1 Word 13: 8 
+Tag: 1 Word 14: 4 
+Tag: 1 Word 15: 2 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
 -----INSERTING BLOCK 1 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 0 
-Tag: 0 Word 1: 6 
+Tag: 0 Word 0: 5 
+Tag: 0 Word 1: 8 
 Tag: 0 Word 2: 0 
-Tag: 0 Word 3: 8 
+Tag: 0 Word 3: 0 
+Tag: 0 Word 4: 0 
+Tag: 0 Word 5: 9 
+Tag: 0 Word 6: 9 
+Tag: 0 Word 7: 2 
+Tag: 0 Word 8: 0 
+Tag: 0 Word 9: 9 
+Tag: 0 Word 10: 2 
+Tag: 0 Word 11: 1 
+Tag: 0 Word 12: 1 
+Tag: 0 Word 13: 5 
+Tag: 0 Word 14: 6 
+Tag: 0 Word 15: 0 
 
 Cache Block: 1
-Tag: 1 Word 0: 8 
-Tag: 1 Word 1: 9 
-Tag: 1 Word 2: 1 
+Tag: 1 Word 0: 7 
+Tag: 1 Word 1: 7 
+Tag: 1 Word 2: 5 
 Tag: 1 Word 3: 4 
+Tag: 1 Word 4: 1 
+Tag: 1 Word 5: 9 
+Tag: 1 Word 6: 3 
+Tag: 1 Word 7: 6 
+Tag: 1 Word 8: 1 
+Tag: 1 Word 9: 7 
+Tag: 1 Word 10: 8 
+Tag: 1 Word 11: 0 
+Tag: 1 Word 12: 4 
+Tag: 1 Word 13: 8 
+Tag: 1 Word 14: 4 
+Tag: 1 Word 15: 2 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
 ----------REPEAT: 3----------
 -----INSERTING BLOCK 0 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 0 
-Tag: 0 Word 1: 6 
+Tag: 0 Word 0: 5 
+Tag: 0 Word 1: 8 
 Tag: 0 Word 2: 0 
-Tag: 0 Word 3: 8 
+Tag: 0 Word 3: 0 
+Tag: 0 Word 4: 0 
+Tag: 0 Word 5: 9 
+Tag: 0 Word 6: 9 
+Tag: 0 Word 7: 2 
+Tag: 0 Word 8: 0 
+Tag: 0 Word 9: 9 
+Tag: 0 Word 10: 2 
+Tag: 0 Word 11: 1 
+Tag: 0 Word 12: 1 
+Tag: 0 Word 13: 5 
+Tag: 0 Word 14: 6 
+Tag: 0 Word 15: 0 
 
 Cache Block: 1
-Tag: 1 Word 0: 8 
-Tag: 1 Word 1: 9 
-Tag: 1 Word 2: 1 
+Tag: 1 Word 0: 7 
+Tag: 1 Word 1: 7 
+Tag: 1 Word 2: 5 
 Tag: 1 Word 3: 4 
+Tag: 1 Word 4: 1 
+Tag: 1 Word 5: 9 
+Tag: 1 Word 6: 3 
+Tag: 1 Word 7: 6 
+Tag: 1 Word 8: 1 
+Tag: 1 Word 9: 7 
+Tag: 1 Word 10: 8 
+Tag: 1 Word 11: 0 
+Tag: 1 Word 12: 4 
+Tag: 1 Word 13: 8 
+Tag: 1 Word 14: 4 
+Tag: 1 Word 15: 2 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
 -----INSERTING BLOCK 1 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 0 
-Tag: 0 Word 1: 6 
+Tag: 0 Word 0: 5 
+Tag: 0 Word 1: 8 
 Tag: 0 Word 2: 0 
-Tag: 0 Word 3: 8 
+Tag: 0 Word 3: 0 
+Tag: 0 Word 4: 0 
+Tag: 0 Word 5: 9 
+Tag: 0 Word 6: 9 
+Tag: 0 Word 7: 2 
+Tag: 0 Word 8: 0 
+Tag: 0 Word 9: 9 
+Tag: 0 Word 10: 2 
+Tag: 0 Word 11: 1 
+Tag: 0 Word 12: 1 
+Tag: 0 Word 13: 5 
+Tag: 0 Word 14: 6 
+Tag: 0 Word 15: 0 
 
 Cache Block: 1
-Tag: 1 Word 0: 8 
-Tag: 1 Word 1: 9 
-Tag: 1 Word 2: 1 
+Tag: 1 Word 0: 7 
+Tag: 1 Word 1: 7 
+Tag: 1 Word 2: 5 
 Tag: 1 Word 3: 4 
+Tag: 1 Word 4: 1 
+Tag: 1 Word 5: 9 
+Tag: 1 Word 6: 3 
+Tag: 1 Word 7: 6 
+Tag: 1 Word 8: 1 
+Tag: 1 Word 9: 7 
+Tag: 1 Word 10: 8 
+Tag: 1 Word 11: 0 
+Tag: 1 Word 12: 4 
+Tag: 1 Word 13: 8 
+Tag: 1 Word 14: 4 
+Tag: 1 Word 15: 2 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
 ----------REPEAT: 4----------
 -----INSERTING BLOCK 0 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 0 
-Tag: 0 Word 1: 6 
+Tag: 0 Word 0: 5 
+Tag: 0 Word 1: 8 
 Tag: 0 Word 2: 0 
-Tag: 0 Word 3: 8 
+Tag: 0 Word 3: 0 
+Tag: 0 Word 4: 0 
+Tag: 0 Word 5: 9 
+Tag: 0 Word 6: 9 
+Tag: 0 Word 7: 2 
+Tag: 0 Word 8: 0 
+Tag: 0 Word 9: 9 
+Tag: 0 Word 10: 2 
+Tag: 0 Word 11: 1 
+Tag: 0 Word 12: 1 
+Tag: 0 Word 13: 5 
+Tag: 0 Word 14: 6 
+Tag: 0 Word 15: 0 
 
 Cache Block: 1
-Tag: 1 Word 0: 8 
-Tag: 1 Word 1: 9 
-Tag: 1 Word 2: 1 
+Tag: 1 Word 0: 7 
+Tag: 1 Word 1: 7 
+Tag: 1 Word 2: 5 
 Tag: 1 Word 3: 4 
+Tag: 1 Word 4: 1 
+Tag: 1 Word 5: 9 
+Tag: 1 Word 6: 3 
+Tag: 1 Word 7: 6 
+Tag: 1 Word 8: 1 
+Tag: 1 Word 9: 7 
+Tag: 1 Word 10: 8 
+Tag: 1 Word 11: 0 
+Tag: 1 Word 12: 4 
+Tag: 1 Word 13: 8 
+Tag: 1 Word 14: 4 
+Tag: 1 Word 15: 2 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
 -----INSERTING BLOCK 1 FROM MEMORY-----
 Cache Block: 0
-Tag: 0 Word 0: 0 
-Tag: 0 Word 1: 6 
+Tag: 0 Word 0: 5 
+Tag: 0 Word 1: 8 
 Tag: 0 Word 2: 0 
-Tag: 0 Word 3: 8 
+Tag: 0 Word 3: 0 
+Tag: 0 Word 4: 0 
+Tag: 0 Word 5: 9 
+Tag: 0 Word 6: 9 
+Tag: 0 Word 7: 2 
+Tag: 0 Word 8: 0 
+Tag: 0 Word 9: 9 
+Tag: 0 Word 10: 2 
+Tag: 0 Word 11: 1 
+Tag: 0 Word 12: 1 
+Tag: 0 Word 13: 5 
+Tag: 0 Word 14: 6 
+Tag: 0 Word 15: 0 
 
 Cache Block: 1
-Tag: 1 Word 0: 8 
-Tag: 1 Word 1: 9 
-Tag: 1 Word 2: 1 
+Tag: 1 Word 0: 7 
+Tag: 1 Word 1: 7 
+Tag: 1 Word 2: 5 
 Tag: 1 Word 3: 4 
+Tag: 1 Word 4: 1 
+Tag: 1 Word 5: 9 
+Tag: 1 Word 6: 3 
+Tag: 1 Word 7: 6 
+Tag: 1 Word 8: 1 
+Tag: 1 Word 9: 7 
+Tag: 1 Word 10: 8 
+Tag: 1 Word 11: 0 
+Tag: 1 Word 12: 4 
+Tag: 1 Word 13: 8 
+Tag: 1 Word 14: 4 
+Tag: 1 Word 15: 2 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
 -----Final Snapshot-----
 Cache Block: 0
-Tag: 0 Word 0: 0 
-Tag: 0 Word 1: 6 
+Tag: 0 Word 0: 5 
+Tag: 0 Word 1: 8 
 Tag: 0 Word 2: 0 
-Tag: 0 Word 3: 8 
+Tag: 0 Word 3: 0 
+Tag: 0 Word 4: 0 
+Tag: 0 Word 5: 9 
+Tag: 0 Word 6: 9 
+Tag: 0 Word 7: 2 
+Tag: 0 Word 8: 0 
+Tag: 0 Word 9: 9 
+Tag: 0 Word 10: 2 
+Tag: 0 Word 11: 1 
+Tag: 0 Word 12: 1 
+Tag: 0 Word 13: 5 
+Tag: 0 Word 14: 6 
+Tag: 0 Word 15: 0 
 
 Cache Block: 1
-Tag: 1 Word 0: 8 
-Tag: 1 Word 1: 9 
-Tag: 1 Word 2: 1 
+Tag: 1 Word 0: 7 
+Tag: 1 Word 1: 7 
+Tag: 1 Word 2: 5 
 Tag: 1 Word 3: 4 
+Tag: 1 Word 4: 1 
+Tag: 1 Word 5: 9 
+Tag: 1 Word 6: 3 
+Tag: 1 Word 7: 6 
+Tag: 1 Word 8: 1 
+Tag: 1 Word 9: 7 
+Tag: 1 Word 10: 8 
+Tag: 1 Word 11: 0 
+Tag: 1 Word 12: 4 
+Tag: 1 Word 13: 8 
+Tag: 1 Word 14: 4 
+Tag: 1 Word 15: 2 
 
 Cache Block: 2
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 3
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 4
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 5
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 6
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 Cache Block: 7
 Tag: -1 Word 0: -1 
 Tag: -1 Word 1: -1 
 Tag: -1 Word 2: -1 
 Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 8
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 9
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 10
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 11
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 12
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 13
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 14
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 15
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 16
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 17
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 18
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 19
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 20
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 21
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 22
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 23
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 24
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 25
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 26
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 27
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 28
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 29
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 30
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
+
+Cache Block: 31
+Tag: -1 Word 0: -1 
+Tag: -1 Word 1: -1 
+Tag: -1 Word 2: -1 
+Tag: -1 Word 3: -1 
+Tag: -1 Word 4: -1 
+Tag: -1 Word 5: -1 
+Tag: -1 Word 6: -1 
+Tag: -1 Word 7: -1 
+Tag: -1 Word 8: -1 
+Tag: -1 Word 9: -1 
+Tag: -1 Word 10: -1 
+Tag: -1 Word 11: -1 
+Tag: -1 Word 12: -1 
+Tag: -1 Word 13: -1 
+Tag: -1 Word 14: -1 
+Tag: -1 Word 15: -1 
 
 
 
